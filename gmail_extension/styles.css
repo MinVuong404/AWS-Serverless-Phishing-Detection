@@ -1,0 +1,245 @@
+/* ==========================================================================
+   Gmail Phishing Detector - Stylesheet
+   Thiết kế giao diện chuẩn Google Material Web:
+   - Hoàn toàn phẳng (Flat Design), KHÔNG đổ bóng nổi (No box-shadow), KHÔNG gradient lòe loẹt.
+   - Đồng bộ hoàn hảo với các nút và thanh thông báo mặc định của Gmail.
+   - KHÔNG dùng icon/emoji, bố cục nghiêm túc, chuyên nghiệp.
+   ========================================================================== */
+
+/* 1. NÚT BẤM TRÊN GMAIL (NATIVE MATERIAL BUTTON) */
+.security-scan-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #3c4043;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+  cursor: pointer;
+  margin: 4px 6px;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  outline: none;
+  user-select: none;
+  box-shadow: none !important;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.security-scan-btn:hover {
+  background-color: #f1f3f4;
+  border-color: #dadce0;
+  color: #202124;
+}
+
+.security-scan-btn:active {
+  background-color: #e8eaed;
+}
+
+/* Trạng thái đang kiểm tra */
+.security-scan-btn.btn-scanning {
+  background-color: #f8f9fa;
+  color: #70757a;
+  border-color: #dadce0;
+  cursor: wait;
+}
+
+/* Trạng thái kết quả an toàn */
+.security-scan-btn.btn-safe {
+  background-color: #e6f4ea;
+  color: #137333;
+  border-color: #ceead6;
+  font-weight: 600;
+}
+.security-scan-btn.btn-safe:hover {
+  background-color: #ceead6;
+}
+
+/* Trạng thái kết quả thư tiếp thị / cần lưu ý (Mức 2) */
+.security-scan-btn.btn-warning {
+  background-color: #fef7e0;
+  color: #b06000;
+  border-color: #feefc3;
+  font-weight: 600;
+}
+.security-scan-btn.btn-warning:hover {
+  background-color: #feefc3;
+}
+
+/* Trạng thái kết quả phát hiện lừa đảo (Mức 3) */
+.security-scan-btn.btn-phishing {
+  background-color: #fce8e6;
+  color: #c5221f;
+  border-color: #fad2cf;
+  font-weight: 600;
+}
+.security-scan-btn.btn-phishing:hover {
+  background-color: #fad2cf;
+}
+
+/* ==========================================================================
+   2. THANH THÔNG BÁO BẢO MẬT TRONG EMAIL (MATERIAL SECURITY ALERT)
+   ========================================================================== */
+.security-banner {
+  margin: 12px 0 16px 0;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: none !important;
+}
+
+/* Kiểu Phishing (Cảnh báo đỏ phẳng - Mức 3) */
+.security-banner.banner-phishing {
+  background-color: #fce8e6;
+  border: 1px solid #fad2cf;
+  border-left: 4px solid #d93025;
+  color: #202124;
+}
+
+/* Kiểu Tiếp thị / Lưu ý (Cảnh báo vàng cam phẳng - Mức 2) */
+.security-banner.banner-warning {
+  background-color: #fef7e0;
+  border: 1px solid #feefc3;
+  border-left: 4px solid #f9ab00;
+  color: #202124;
+}
+
+/* Kiểu An Toàn (Xác nhận xanh phẳng - Mức 1) */
+.security-banner.banner-safe {
+  background-color: #e6f4ea;
+  border: 1px solid #ceead6;
+  border-left: 4px solid #1e8e3e;
+  color: #202124;
+}
+
+/* Header của Banner */
+.security-banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.security-banner-title {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+}
+
+.banner-phishing .security-banner-title {
+  color: #c5221f;
+}
+
+.banner-warning .security-banner-title {
+  color: #b06000;
+}
+
+.banner-safe .security-banner-title {
+  color: #137333;
+}
+
+.security-banner-close {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #5f6368;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 2px;
+  line-height: 1;
+}
+
+.security-banner-close:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #202124;
+}
+
+/* Dòng thông tin phụ (Metadata) */
+.security-banner-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #5f6368;
+  font-weight: 500;
+}
+
+/* Nội dung cảnh báo */
+.security-banner-desc {
+  margin: 2px 0 0 0;
+  font-size: 13px;
+  color: #3c4043;
+}
+
+/* 3. KHUNG XEM CHI TIẾT DỮ LIỆU TRÍCH XUẤT (PAYLOAD INSPECTOR) */
+.security-banner-details {
+  margin-top: 10px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.15);
+  padding-top: 8px;
+}
+
+.security-banner-details summary {
+  font-size: 12px;
+  color: #1a73e8;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  outline: none;
+}
+
+.security-banner-details summary:hover {
+  text-decoration: underline;
+}
+
+.payload-box {
+  margin-top: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+.payload-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+}
+
+.btn-copy-payload {
+  background: #f1f3f4;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #3c4043;
+  padding: 3px 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.btn-copy-payload:hover {
+  background-color: #e8eaed;
+  color: #202124;
+}
+
+.payload-content {
+  max-height: 160px;
+  overflow-y: auto;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #374151;
+  word-break: break-word;
+  white-space: pre-wrap;
+  background: #f8fafc;
+  padding: 8px;
+  border-radius: 3px;
+}
+

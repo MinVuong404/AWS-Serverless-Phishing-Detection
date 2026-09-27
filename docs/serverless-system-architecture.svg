@@ -1,0 +1,430 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 750" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap');
+      text { font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .title-main { font-size: 14px; font-weight: 800; fill: #ffffff; letter-spacing: 0.8px; }
+      .title-sub { font-size: 11.5px; font-weight: 500; fill: #94a3b8; }
+      .cloud-badge-txt { font-size: 11px; font-weight: 700; fill: #f8fafc; }
+      .tier-tag-txt { font-size: 10px; font-weight: 700; fill: #ffffff; letter-spacing: 0.5px; }
+      .card-title { font-size: 13px; font-weight: 800; fill: #0f172a; }
+      .card-sub { font-size: 10px; font-weight: 600; fill: #64748b; }
+      .field-label { font-size: 9.5px; font-weight: 700; fill: #475569; }
+      .field-value { font-size: 9.5px; font-weight: 500; fill: #1e293b; }
+      .badge-txt { font-size: 8.5px; font-weight: 700; }
+      .flow-pill-txt { font-size: 8.5px; font-weight: 800; fill: #ffffff; }
+    </style>
+    
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.06"/>
+    </filter>
+
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#2563eb" />
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#9333ea" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#ea580c" />
+    </marker>
+    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#dc2626" />
+    </marker>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1480" height="750" fill="#f8fafc" rx="16"/>
+
+  <!-- 1. TOP HEADER BANNER -->
+  <g transform="translate(20, 14)">
+    <rect width="1440" height="46" rx="8" fill="#0f172a"/>
+    <text x="24" y="28" class="title-main">100% SERVERLESS REAL-TIME PHISHING EMAIL DETECTION PLATFORM</text>
+    <text x="1416" y="28" text-anchor="end" class="title-sub">AWS Well-Architected Serverless Event-Driven Machine Learning Architecture</text>
+  </g>
+
+  <!-- 2. MAIN CLOUD BOUNDARY -->
+  <g transform="translate(20, 68)">
+    <rect width="1440" height="662" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <!-- Cloud Header Pill -->
+    <g transform="translate(20, -13)">
+      <rect width="570" height="26" rx="13" fill="#0f172a"/>
+      <path d="M 18 16 C 22 19, 28 19, 32 16" stroke="#ff9900" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <path d="M 31 14 L 33 17 L 30 18" fill="#ff9900"/>
+      <text x="42" y="17" class="cloud-badge-txt">AWS Cloud</text>
+      <text x="108" y="17" fill="#64748b" font-size="11">|</text>
+      <text x="118" y="17" fill="#e2e8f0" font-size="10.5" font-weight="600">Region: ap-southeast-1 (Singapore)</text>
+      <text x="310" y="17" fill="#64748b" font-size="11">|</text>
+      <text x="320" y="17" fill="#93c5fd" font-size="10.5" font-weight="600">Account ID: 803146828520 (dev-vuong)</text>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- COLUMN 1: LEFT EXTERNAL CLIENTS & DEVELOPER                               -->
+    <!-- ========================================================================= -->
+    
+    <!-- 1.1. End User Card (Top-Left) -->
+    <g transform="translate(25, 40)">
+      <rect width="145" height="180" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" filter="url(#card-shadow)"/>
+      <circle cx="72" cy="46" r="26" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+      <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjQ4cHgiIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5JY29uLVJlc291cmNlL0dlbmVyYWwtUmVzb3VyY2UvUmVzX1VzZXJfNDhfTGlnaHQ8L3RpdGxlPg0KICAgIDxnIGlkPSJJY29uLVJlc291cmNlL0dlbmVyYWwtUmVzb3VyY2UvUmVzX1VzZXJfNDgiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cGF0aCBkPSJNNi4wMjUsNDQgQzYuNTI0LDM0LjA4NSAxNC4zOTUsMjYuMTc4IDI0LDI2LjE3OCBDMjcuMjQ4LDI2LjE3OCAzMC40MywyNy4wOTIgMzMuMjA1LDI4LjgyMiBDMzguMzU0LDMyLjAzMyA0MS42NTMsMzcuNzgzIDQxLjk3NCw0NCBMNi4wMjUsNDQgWiBNMTQuMTkyLDEzLjg3OCBDMTQuMTkyLDguNDMyIDE4LjU5Miw0IDI0LjAwMSw0IEMyOS40MDgsNCAzMy44MDcsOC40MzIgMzMuODA3LDEzLjg3OCBDMzMuODA3LDE5LjMyNSAyOS40MDgsMjMuNzU3IDI0LjAwMSwyMy43NTcgQzE4LjU5MiwyMy43NTcgMTQuMTkyLDE5LjMyNSAxNC4xOTIsMTMuODc4IEwxNC4xOTIsMTMuODc4IFogTTM0LjI2MywyNy4xMjUgQzMyLjUzLDI2LjA0NCAzMC42NSwyNS4yNiAyOC42OTgsMjQuNzcxIEMzMi44NzcsMjIuOTM5IDM1LjgwNywxOC43NDkgMzUuODA3LDEzLjg3OCBDMzUuODA3LDcuMzI5IDMwLjUxLDIgMjQuMDAxLDIgQzE3LjQ4OSwyIDEyLjE5Miw3LjMyOSAxMi4xOTIsMTMuODc4IEMxMi4xOTIsMTguNzU1IDE1LjEzLDIyLjk1IDE5LjMxNywyNC43NzggQzEwLjU0NSwyNi45ODEgNCwzNS4yIDQsNDUgQzQsNDUuNTUyIDQuNDQ3LDQ2IDUsNDYgTDQzLDQ2IEM0My41NTIsNDYgNDQsNDUuNTUyIDQ0LDQ1IEM0NCwzNy43MTkgNDAuMjY5LDMwLjg3IDM0LjI2MywyNy4xMjUgTDM0LjI2MywyNy4xMjUgWiIgaWQ9IkZpbGwtMSIgZmlsbD0iIzI0MkYzRSI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg==" x="52" y="26" width="40" height="40"/>
+      <text x="72" y="96" text-anchor="middle" font-size="12" font-weight="800" fill="#0f172a">End Users</text>
+      <text x="72" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="#2563eb">Chrome Extension</text>
+      <text x="72" y="128" text-anchor="middle" font-size="9" fill="#64748b">Gmail Web Client</text>
+      <rect x="25" y="140" width="95" height="18" rx="9" fill="#dbeafe"/>
+      <text x="72" y="152" text-anchor="middle" font-size="8.5" font-weight="800" fill="#1e40af">Manifest V3</text>
+    </g>
+
+    <!-- 1.2. Developer Card (Bottom-Left) -->
+    <g transform="translate(25, 275)">
+      <rect width="145" height="175" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" filter="url(#card-shadow)"/>
+      <circle cx="72" cy="44" r="26" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5"/>
+      <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjQ4cHgiIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5JY29uLVJlc291cmNlL0dlbmVyYWwtUmVzb3VyY2UvUmVzX0NsaWVudF80OF9MaWdodDwvdGl0bGU+DQogICAgPGcgaWQ9Ikljb24tUmVzb3VyY2UvR2VuZXJhbC1SZXNvdXJjZS9SZXNfQ2xpZW50XzQ4IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTQyLjI5OSwzOC43NzMgTDQyLjI5OSw0MC42OTYgQzQyLjI5OSw0MS4xMzQgNDEuOTQ1LDQxLjQ5IDQxLjUwNiw0MS40OSBMMzAuNzYyLDQxLjQ5IEMzMC4zMjMsNDEuNDkgMjkuOTY4LDQxLjEzNCAyOS45NjgsNDAuNjk2IEwyOS45NjgsMzguNzczIEMyOS45NjgsMzguMzM1IDMwLjMyMywzNy45OCAzMC43NjIsMzcuOTggTDQxLjUwNiwzNy45OCBDNDEuOTQ1LDM3Ljk4IDQyLjI5OSwzOC4zMzUgNDIuMjk5LDM4Ljc3MyBMNDIuMjk5LDM4Ljc3MyBaIE00My43OTcsNDIuMzk5IEM0My43OTcsNDIuNzU0IDQzLjUwOCw0My4wNDQgNDMuMTUzLDQzLjA0NCBMNC42NDUsNDMuMDQ0IEM0LjI4OSw0My4wNDQgNCw0Mi43NTQgNCw0Mi4zOTkgTDQsMzcuMDExIEM0LDM2LjY1NiA0LjI4OSwzNi4zNjcgNC42NDUsMzYuMzY3IEw0My4xNTMsMzYuMzY3IEM0My41MDgsMzYuMzY3IDQzLjc5NywzNi42NTYgNDMuNzk3LDM3LjAxMSBMNDMuNzk3LDQyLjM5OSBaIE00My4xNTMsMzQuMzY3IEw0LjY0NSwzNC4zNjcgQzMuMTg3LDM0LjM2NyAyLDM1LjU1MyAyLDM3LjAxMSBMMiw0Mi4zOTkgQzIsNDMuODU3IDMuMTg3LDQ1LjA0NCA0LjY0NSw0NS4wNDQgTDQzLjE1Myw0NS4wNDQgQzQ0LjYxMSw0NS4wNDQgNDUuNzk3LDQzLjg1NyA0NS43OTcsNDIuMzk5IEw0NS43OTcsMzcuMDExIEM0NS43OTcsMzUuNTUzIDQ0LjYxMSwzNC4zNjcgNDMuMTUzLDM0LjM2NyBMNDMuMTUzLDM0LjM2NyBaIE03LjUwMSwyNy4yMSBMNDAuMjY0LDI3LjIxIEw0MC4yNjQsNy41MDIgTDcuNTAxLDcuNTAyIEw3LjUwMSwyNy4yMSBaIE00MC44NDIsNS41MDIgTDYuOTI0LDUuNTAyIEM2LjE0LDUuNTAyIDUuNTAxLDYuMTM5IDUuNTAxLDYuOTIzIEw1LjUwMSwyNy43ODggQzUuNTAxLDI4LjU3MiA2LjE0LDI5LjIxIDYuOTI0LDI5LjIxIEw0MC44NDIsMjkuMjEgQzQxLjYyNiwyOS4yMSA0Mi4yNjQsMjguNTcyIDQyLjI2NCwyNy43ODggTDQyLjI2NCw2LjkyMyBDNDIuMjY0LDYuMTM5IDQxLjYyNiw1LjUwMiA0MC44NDIsNS41MDIgTDQwLjg0Miw1LjUwMiBaIE00My43OTcsMzAuMDY3IEM0My43OTcsMzAuNDIyIDQzLjUwOCwzMC43MTEgNDMuMTUzLDMwLjcxMSBMNC42NDUsMzAuNzExIEM0LjI4OSwzMC43MTEgNCwzMC40MjIgNCwzMC4wNjcgTDQsNC42NDQgQzQsNC4yODkgNC4yODksNCA0LjY0NSw0IEw0My4xNTMsNCBDNDMuNTA4LDQgNDMuNzk3LDQuMjg5IDQzLjc5Nyw0LjY0NCBMNDMuNzk3LDMwLjA2NyBaIE00My4xNTMsMiBMNC42NDUsMiBDMy4xODcsMiAyLDMuMTg2IDIsNC42NDQgTDIsMzAuMDY3IEMyLDMxLjUyNSAzLjE4NywzMi43MTEgNC42NDUsMzIuNzExIEw0My4xNTMsMzIuNzExIEM0NC42MTEsMzIuNzExIDQ1Ljc5NywzMS41MjUgNDUuNzk3LDMwLjA2NyBMNDUuNzk3LDQuNjQ0IEM0NS43OTcsMy4xODYgNDQuNjExLDIgNDMuMTUzLDIgTDQzLjE1MywyIFoiIGlkPSJGaWxsLTMiIGZpbGw9IiMyMzJGM0QiPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4=" x="52" y="24" width="40" height="40"/>
+      <text x="72" y="94" text-anchor="middle" font-size="12" font-weight="800" fill="#0f172a">Dev / Engineer</text>
+      <text x="72" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#16a34a">Đỗ Minh Vương</text>
+      <text x="72" y="126" text-anchor="middle" font-size="9" fill="#64748b">Docker Container</text>
+      <rect x="25" y="138" width="95" height="18" rx="9" fill="#dcfce7"/>
+      <text x="72" y="150" text-anchor="middle" font-size="8.5" font-weight="800" fill="#166534">CI/CD Pipeline</text>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- COLUMN 2: INGESTION TIER (API GATEWAY V2)                                 -->
+    <!-- ========================================================================= -->
+    <g transform="translate(210, 25)">
+      <!-- Tier Container Box -->
+      <rect width="210" height="440" rx="10" fill="#faf5ff" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <rect x="12" y="-11" width="186" height="22" rx="6" fill="#7e22ce"/>
+      <text x="105" y="4" text-anchor="middle" class="tier-tag-txt">INGESTION &amp; SECURITY TIER</text>
+
+      <!-- API Gateway Inner Card -->
+      <g transform="translate(12, 18)">
+        <rect width="186" height="402" rx="8" fill="#ffffff" stroke="#e9d5ff" stroke-width="1.2" filter="url(#card-shadow)"/>
+        
+        <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5JY29uLUFyY2hpdGVjdHVyZS82NC9BcmNoXyBBbWF6b24tQVBJLUdhdGV3YXlfNjQ8L3RpdGxlPg0KICAgIDxkZWZzPg0KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0IwMDg0RCIgb2Zmc2V0PSIwJSI+PC9zdG9wPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0ZGNEY4QiIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+DQogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPC9kZWZzPg0KICAgIDxnIGlkPSJJY29uLUFyY2hpdGVjdHVyZS82NC9BcmNoXy1BbWF6b24tQVBJLUdhdGV3YXlfNjQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iUmVjdGFuZ2xlIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIj4NCiAgICAgICAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PC9yZWN0Pg0KICAgICAgICA8L2c+DQogICAgICAgIDxnIGlkPSJJY29uLVNlcnZpY2UvNjQvQW1hem9uLUFQSS1HYXRld2F5XzY0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4LjAwMDAwMCwgOC4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIj4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNi4wNjUsNDcuNjMyMzY0MiBMMjksNDcuNjMyMzY0MiBMMjksNDUuNjE1Mjk4OSBMMjYuMDY1LDQ1LjYxNTI5ODkgTDI2LjA2NSw0Ny42MzIzNjQyIFogTTMxLDQ3LjYzMjM2NDIgTDM0LDQ3LjYzMjM2NDIgTDM0LDQ1LjYxNTI5ODkgTDMxLDQ1LjYxNTI5ODkgTDMxLDQ3LjYzMjM2NDIgWiBNMTksNi42Mjk0NjExMiBMNiwxMy4wODIwNTMgTDYsNTMuMTkzNDEzMiBMMTksNTcuNTg5NjA3IEwxOSw2LjYyOTQ2MTEyIFogTTIxLDE5LjM5MzQ1MDIgTDIxLDQ1LjYxNTI5ODkgTDI0LDQ1LjYxNTI5ODkgTDI0LDQ3LjYzMjM2NDIgTDIxLDQ3LjYzMjM2NDIgTDIxLDU4Ljk5MTQ2NzQgQzIxLDU5LjMxNjIxNDkgMjAuODQ1LDU5LjYyMDc5MTcgMjAuNTg0LDU5LjgxMDM5NTkgQzIwLjQxMiw1OS45MzU0NTM5IDIwLjIwNyw2MCAyMCw2MCBDMTkuODk0LDYwIDE5Ljc4Niw1OS45ODI4NTQ5IDE5LjY4Miw1OS45NDc1NTYzIEw0LjY4Miw1NC44NzU2NDU2IEM0LjI3NCw1NC43Mzc0NzY3IDQsNTQuMzUyMjE3MiA0LDUzLjkxOTU1NjcgTDQsMTIuNDUzNzM3MSBDNCwxMi4wNzA0OTQ3IDQuMjE3LDExLjcxODUxNjggNC41NTksMTEuNTQ5MDgzMyBMMTkuNTU5LDQuMTA0MDk1MzkgQzE5Ljg2OCwzLjk0OTc4OTg5IDIwLjIzNSwzLjk2Nzk0MzQ4IDIwLjUyOCw0LjE1MjUwNDk1IEMyMC44MjEsNC4zMzYwNTc4OSAyMSw0LjY1OTc5Njg3IDIxLDUuMDA4NzQ5MTcgTDIxLDE3LjM3NjM4NSBMMjQsMTcuMzc2Mzg1IEwyNCwxOS4zOTM0NTAyIEwyMSwxOS4zOTM0NTAyIFogTTM2LDQ3LjYzMjM2NDIgTDM5LDQ3LjYzMjM2NDIgTDM5LDQ1LjYxNTI5ODkgTDM2LDQ1LjYxNTI5ODkgTDM2LDQ3LjYzMjM2NDIgWiBNMzYuMDY1LDE5LjM5MzQ1MDIgTDM5LDE5LjM5MzQ1MDIgTDM5LDE3LjM3NjM4NSBMMzYuMDY1LDE3LjM3NjM4NSBMMzYuMDY1LDE5LjM5MzQ1MDIgWiBNMzEuMDY1LDE5LjM5MzQ1MDIgTDM0LDE5LjM5MzQ1MDIgTDM0LDE3LjM3NjM4NSBMMzEuMDY1LDE3LjM3NjM4NSBMMzEuMDY1LDE5LjM5MzQ1MDIgWiBNMjYuMDY1LDE5LjM5MzQ1MDIgTDI5LDE5LjM5MzQ1MDIgTDI5LDE3LjM3NjM4NSBMMjYuMDY1LDE3LjM3NjM4NSBMMjYuMDY1LDE5LjM5MzQ1MDIgWiBNNTgsMTMuMDgyMDUzIEw0NSw2LjYyOTQ2MTEyIEw0NSw1Ny41ODk2MDcgTDU4LDUzLjE5MzQxMzIgTDU4LDEzLjA4MjA1MyBaIE02MCw1My45MTk1NTY3IEM2MCw1NC4zNTIyMTcyIDU5LjcyNiw1NC43Mzc0NzY3IDU5LjMxOCw1NC44NzU2NDU2IEw0NC4zMTgsNTkuOTQ3NTU2MyBDNDQuMjE0LDU5Ljk4Mjg1NDkgNDQuMTA2LDYwIDQ0LDYwIEM0My43OTMsNjAgNDMuNTg4LDU5LjkzNTQ1MzkgNDMuNDE2LDU5LjgxMDM5NTkgQzQzLjE1NSw1OS42MjA3OTE3IDQzLDU5LjMxNjIxNDkgNDMsNTguOTkxNDY3NCBMNDMsNDcuNjMyMzY0MiBMNDEuMDY1LDQ3LjYzMjM2NDIgTDQxLjA2NSw0NS42MTUyOTg5IEw0Myw0NS42MTUyOTg5IEw0MywxOS4zOTM0NTAyIEw0MS4wNjUsMTkuMzkzNDUwMiBMNDEuMDY1LDE3LjM3NjM4NSBMNDMsMTcuMzc2Mzg1IEw0Myw1LjAwODc0OTE3IEM0Myw0LjY1OTc5Njg3IDQzLjE3OSw0LjMzNjA1Nzg5IDQzLjQ3Miw0LjE1MjUwNDk1IEM0My43NjUsMy45Njc5NDM0OCA0NC4xMzEsMy45NDk3ODk4OSA0NC40NDEsNC4xMDQwOTUzOSBMNTkuNDQxLDExLjU0OTA4MzMgQzU5Ljc4MywxMS43MTg1MTY4IDYwLDEyLjA3MDQ5NDcgNjAsMTIuNDUzNzM3MSBMNjAsNTMuOTE5NTU2NyBaIE0zNC45MzQsMjUuODA2NzA5MyBMMzMuMDY2LDI1LjA4MjU4MjkgTDI4LjA2NiwzOC4xOTM1MDcyIEwyOS45MzQsMzguOTE3NjMzNyBMMzQuOTM0LDI1LjgwNjcwOTMgWiBNNDEuNzA3LDMyLjIwODg3NDUgQzQyLjA5OCwzMS44MTQ1MzgzIDQyLjA5OCwzMS4xNzYxMzcxIDQxLjcwNywzMC43ODI4MDk0IEwzNy43MDcsMjYuNzQ4Njc4OCBMMzYuMjkzLDI4LjE3NDc0NCBMMzkuNTg2LDMxLjQ5NTg0MTkgTDM2LjI5MywzNC44MTY5Mzk5IEwzNy43MDcsMzYuMjQzMDA1MSBMNDEuNzA3LDMyLjIwODg3NDUgWiBNMjYuMjkzLDM2LjI0MzAwNTEgTDIyLjI5MywzMi4yMDg4NzQ1IEMyMS45MDIsMzEuODE0NTM4MyAyMS45MDIsMzEuMTc2MTM3MSAyMi4yOTMsMzAuNzgyODA5NCBMMjYuMjkzLDI2Ljc0ODY3ODggTDI3LjcwNywyOC4xNzQ3NDQgTDI0LjQxNCwzMS40OTU4NDE5IEwyNy43MDcsMzQuODE2OTM5OSBMMjYuMjkzLDM2LjI0MzAwNTEgWiIgaWQ9IkFtYXpvbi1BUEktR2F0ZXdheV9JY29uXzY0X1NxdWlkIj48L3BhdGg+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4=" x="14" y="14" width="44" height="44"/>
+        <text x="68" y="32" class="card-title">Amazon</text>
+        <text x="68" y="48" font-size="12.5" font-weight="800" fill="#7e22ce">API Gateway v2</text>
+        <text x="14" y="74" class="card-sub">HTTP API (Proxy Integration)</text>
+
+        <line x1="14" y1="84" x2="172" y2="84" stroke="#f3e8ff" stroke-width="1.2"/>
+
+        <g transform="translate(14, 96)">
+          <text x="0" y="8" class="field-label">Route:</text>
+          <rect x="0" y="14" width="158" height="22" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="8" y="29" font-size="10.5" font-weight="800" fill="#0f172a">POST /predict</text>
+          
+          <text x="0" y="56" class="field-label">Integration Target:</text>
+          <text x="0" y="70" class="field-value">• AWS Lambda Function</text>
+          <text x="0" y="84" class="field-value">• AWS_PROXY Protocol</text>
+
+          <text x="0" y="108" class="field-label">CORS Governance:</text>
+          <text x="0" y="122" class="field-value">• Allow-Origin: *</text>
+          <text x="0" y="136" class="field-value">• Allow-Methods: POST, OPTIONS</text>
+          <text x="0" y="150" class="field-value">• Allow-Headers: content-type</text>
+
+          <text x="0" y="174" class="field-label">SLA &amp; Performance:</text>
+          <text x="0" y="188" class="field-value">• Gateway Latency: &lt; 5 ms</text>
+          <text x="0" y="202" class="field-value">• Concurrency: 10,000+ rps</text>
+          <text x="0" y="216" class="field-value">• Cost: $0.00 (Free Tier 1M/mo)</text>
+        </g>
+
+        <!-- Status Pill -->
+        <rect x="14" y="358" width="158" height="26" rx="6" fill="#f3e8ff"/>
+        <circle cx="26" cy="371" r="4" fill="#9333ea"/>
+        <text x="36" y="375" font-size="9" font-weight="800" fill="#6b21a8">Status: Deployed &amp; Active</text>
+      </g>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- COLUMN 3: SERVERLESS COMPUTE & ML INFERENCE TIER                          -->
+    <!-- ========================================================================= -->
+    <g transform="translate(455, 25)">
+      <!-- Tier Container Box -->
+      <rect width="470" height="465" rx="10" fill="#fffaf5" stroke="#fb923c" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <rect x="16" y="-11" width="280" height="22" rx="6" fill="#ea580c"/>
+      <text x="156" y="4" text-anchor="middle" class="tier-tag-txt">COMPUTE &amp; ML INFERENCE TIER</text>
+
+      <!-- 3.1. AWS Lambda Function Card -->
+      <g transform="translate(14, 16)">
+        <rect width="442" height="270" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="1.2" filter="url(#card-shadow)"/>
+        
+        <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtTGFtYmRhXzY0PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz4NCiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNDODUxMUIiIG9mZnNldD0iMCUiPjwvc3RvcD4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGRjk5MDAiIG9mZnNldD0iMTAwJSI+PC9zdG9wPg0KICAgICAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDwvZGVmcz4NCiAgICA8ZyBpZD0iSWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtTGFtYmRhXzY0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9Ikljb24tQXJjaGl0ZWN0dXJlLUJHLzY0L0NvbXB1dGUiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPg0KICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIj48L3JlY3Q+DQogICAgICAgIDwvZz4NCiAgICAgICAgPHBhdGggZD0iTTI4LjAwNzUzNTIsNjYgTDE1LjU5MDcyNzQsNjYgTDI5LjMyMzU4ODUsMzcuMjk2IEwzNS41NDYwMjQ5LDUwLjEwNiBMMjguMDA3NTM1Miw2NiBaIE0zMC4yMTk2Njc0LDM0LjU1MyBDMzAuMDUxMjc2OCwzNC4yMDggMjkuNzAwNDYyOSwzMy45ODkgMjkuMzE3NTc0NSwzMy45ODkgTDI5LjMxNDU2NzYsMzMuOTg5IEMyOC45Mjg2NzIzLDMzLjk5IDI4LjU3Nzg1ODMsMzQuMjExIDI4LjQxMjQ3NDYsMzQuNTU4IEwxMy4wOTc5NDQsNjYuNTY5IEMxMi45NDk1OTk5LDY2Ljg3OSAxMi45NzA2NDg3LDY3LjI0MyAxMy4xNTUwNzY2LDY3LjUzNCBDMTMuMzM3NDk5OCw2Ny44MjQgMTMuNjU4MjQzOSw2OCAxNC4wMDIwNDE2LDY4IEwyOC42NDIwMDcyLDY4IEMyOS4wMjk5MDcxLDY4IDI5LjM4MTcyMzQsNjcuNzc3IDI5LjU0ODEwOTQsNjcuNDI4IEwzNy41NjM3MDYsNTAuNTI4IEMzNy42OTMwMDYsNTAuMjU0IDM3LjY5MjAwMzcsNDkuOTM3IDM3LjU1ODY5NDQsNDkuNjY1IEwzMC4yMTk2Njc0LDM0LjU1MyBaIE02NC45OTUzNDkxLDY2IEw1Mi42NTg3Mjc0LDY2IEwzMi44NjY4MDksMjQuNTcgQzMyLjcwMTQyNTMsMjQuMjIyIDMyLjM0ODYwNjcsMjQgMzEuOTYxNzA5MSwyNCBMMjMuODg5OTgyMiwyNCBMMjMuODk5MDAzMSwxNCBMMzkuNzE5NzA4MSwxNCBMNTkuNDIwNDE0OSw1NS40MjkgQzU5LjU4NTc5ODYsNTUuNzc3IDU5LjkzODYxNzIsNTYgNjAuMzI1NTE0OCw1NiBMNjQuOTk1MzQ5MSw1NiBMNjQuOTk1MzQ5MSw2NiBaIE02NS45OTc2NzQ1LDU0IEw2MC45NTk5ODY4LDU0IEw0MS4yNTkyOCwxMi41NzEgQzQxLjA5Mzg5NjMsMTIuMjIzIDQwLjc0MTA3NzcsMTIgNDAuMzUzMTc3OCwxMiBMMjIuODk3NjgsMTIgQzIyLjM0NTM5ODcsMTIgMjEuODk2MzU2OSwxMi40NDcgMjEuODk1MzU0NSwxMi45OTkgTDIxLjg4NDMyOSwyNC45OTkgQzIxLjg4NDMyOSwyNS4yNjUgMjEuOTg4NTcwOCwyNS41MTkgMjIuMTc4MDEwMywyNS43MDcgQzIyLjM2NTQ0NTIsMjUuODk1IDIyLjYyMDAzNTgsMjYgMjIuODg2NjU0NCwyNiBMMzEuMzI5MjQxNywyNiBMNTEuMTIyMTYyNSw2Ny40MyBDNTEuMjg4NTQ4NSw2Ny43NzggNTEuNjM5MzYyNCw2OCA1Mi4wMjYyNiw2OCBMNjUuOTk3Njc0NSw2OCBDNjYuNTUxOTYwNSw2OCA2Nyw2Ny41NTIgNjcsNjcgTDY3LDU1IEM2Nyw1NC40NDggNjYuNTUxOTYwNSw1NCA2NS45OTc2NzQ1LDU0IEw2NS45OTc2NzQ1LDU0IFoiIGlkPSJBV1MtTGFtYmRhX0ljb25fNjRfU3F1aWQiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4=" x="14" y="12" width="44" height="44"/>
+        <text x="68" y="28" class="card-title">AWS Lambda Function</text>
+        <text x="68" y="44" font-size="12" font-weight="800" fill="#ea580c">phishing-detection-fn (Serverless Inference)</text>
+
+        <!-- Badges -->
+        <rect x="68" y="52" width="68" height="15" rx="3" fill="#ffedd5"/>
+        <text x="102" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="#9a3412">Python 3.12</text>
+
+        <rect x="142" y="52" width="86" height="15" rx="3" fill="#dbeafe"/>
+        <text x="185" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="#1e40af">Docker OCI</text>
+
+        <rect x="234" y="52" width="68" height="15" rx="3" fill="#dcfce7"/>
+        <text x="268" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="#166534">512 MB RAM</text>
+
+        <rect x="308" y="52" width="98" height="15" rx="3" fill="#fef3c7"/>
+        <text x="357" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="#92400e">Warm Start &lt; 15ms</text>
+
+        <line x1="14" y1="74" x2="428" y2="74" stroke="#ffedd5" stroke-width="1"/>
+
+        <!-- Real-Time Machine Learning Pipeline Box -->
+        <g transform="translate(14, 82)">
+          <rect width="414" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="10" y="14" font-size="9" font-weight="800" fill="#334155">In-Memory Real-Time Machine Learning Pipeline:</text>
+
+          <g transform="translate(8, 20)">
+            <!-- Step 1 -->
+            <rect x="0" y="0" width="92" height="46" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+            <text x="46" y="13" text-anchor="middle" font-size="8" font-weight="800" fill="#0f172a">1. Preprocess</text>
+            <text x="46" y="24" text-anchor="middle" font-size="7.5" fill="#64748b">Regex Clean</text>
+            <text x="46" y="37" text-anchor="middle" font-size="7.5" font-weight="700" fill="#2563eb">&lt; 1.2 ms</text>
+
+            <path d="M 94 23 L 100 23" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+
+            <!-- Step 2 -->
+            <rect x="102" y="0" width="92" height="46" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+            <text x="148" y="13" text-anchor="middle" font-size="8" font-weight="800" fill="#0f172a">2. TF-IDF</text>
+            <text x="148" y="24" text-anchor="middle" font-size="7.5" fill="#64748b">10K Features</text>
+            <text x="148" y="37" text-anchor="middle" font-size="7.5" font-weight="700" fill="#2563eb">&lt; 3.5 ms</text>
+
+            <path d="M 196 23 L 202 23" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+
+            <!-- Step 3 -->
+            <rect x="204" y="0" width="92" height="46" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+            <text x="250" y="13" text-anchor="middle" font-size="8" font-weight="800" fill="#0f172a">3. TruncatedSVD</text>
+            <text x="250" y="24" text-anchor="middle" font-size="7.5" fill="#64748b">10K -> 300 Dim</text>
+            <text x="250" y="37" text-anchor="middle" font-size="7.5" font-weight="700" fill="#2563eb">-97% RAM</text>
+
+            <path d="M 298 23 L 304 23" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+
+            <!-- Step 4 -->
+            <rect x="306" y="0" width="92" height="46" rx="4" fill="#ecfdf5" stroke="#86efac"/>
+            <text x="352" y="13" text-anchor="middle" font-size="8" font-weight="800" fill="#15803d">4. XGBoost</text>
+            <text x="352" y="24" text-anchor="middle" font-size="7.5" font-weight="700" fill="#047857">Acc &gt; 97%</text>
+            <text x="352" y="37" text-anchor="middle" font-size="7.5" font-weight="800" fill="#047857">&lt; 4.8 ms</text>
+          </g>
+        </g>
+
+        <!-- Lambda Architectural Specifications -->
+        <g transform="translate(14, 168)">
+          <text x="0" y="0" class="field-value">• <tspan font-weight="700">Model Preload:</tspan> Global Scope initialization eliminates disk deserialization lag.</text>
+          <text x="0" y="15" class="field-value">• <tspan font-weight="700">MicroVM Runtime:</tspan> Amazon Linux 2023 Firecracker container environment.</text>
+          <text x="0" y="30" class="field-value">• <tspan font-weight="700">Benchmark Metrics:</tspan> Warm Latency = 13.8 ms | Memory Consumed = 142 MB / 512 MB.</text>
+          <text x="0" y="45" class="field-value">• <tspan font-weight="700">Cost Optimization:</tspan> $0.00 / month (Fully covered by 3.2M free monthly seconds).</text>
+          <text x="0" y="60" class="field-value">• <tspan font-weight="700">Response Payload:</tspan> <tspan font-family="monospace" fill="#047857">{"is_phishing": true, "confidence": 0.98, "latency_ms": 13.8}</tspan></text>
+        </g>
+
+        <!-- Bottom Highlight Bar -->
+        <rect x="14" y="242" width="414" height="20" rx="4" fill="#fff7ed"/>
+        <text x="221" y="255" text-anchor="middle" font-size="8.5" font-weight="700" fill="#c2410c">Zero-Cost Serverless Machine Learning Architecture (&lt; 15 ms Latency)</text>
+      </g>
+
+      <!-- 3.2. Amazon ECR Card (Bottom) -->
+      <g transform="translate(14, 305)">
+        <rect width="442" height="140" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="1.2" filter="url(#card-shadow)"/>
+        
+        <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BbWF6b24tRWxhc3RpYy1Db250YWluZXItUmVnaXN0cnlfNjQ8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPg0KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0M4NTExQiIgb2Zmc2V0PSIwJSI+PC9zdG9wPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0ZGOTkwMCIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+DQogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPC9kZWZzPg0KICAgIDxnIGlkPSJJY29uLUFyY2hpdGVjdHVyZS82NC9BcmNoX0FtYXpvbi1FbGFzdGljLUNvbnRhaW5lci1SZWdpc3RyeV82NCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJJY29uLUFyY2hpdGVjdHVyZS1CRy82NC9Db250YWluZXJzIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIj4NCiAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PC9yZWN0Pg0KICAgICAgICA8L2c+DQogICAgICAgIDxwYXRoIGQ9Ik0zOC43ODgwNzQxLDM3LjU3NzY5NDUgQzM4LjI5MzM4NDUsMzcuODY1NTEyNSAzNy45ODU1Nzc3LDM4LjQwMDAzMTcgMzcuOTg1NTc3NywzOC45NzM2NjIgTDM3Ljk4NTU3NzcsNjYuNzE5NTE4NiBMMTYuOTk4NzQ1OSw1NC45ODQxNjU1IEwxNi45OTg3NDU5LDI3LjcwNzY0MjggTDQwLjU1Njk2NDMsMTQuMDU4ODUxNSBMNjEuNDg0ODMzLDI0LjQyODMyMjYgTDM4Ljc4ODA3NDEsMzcuNTc3Njk0NSBaIE02My45MjAzMDQ5LDI0LjQwMjI0ODUgQzYzLjkyMDMwNDksMjMuODI3NjE1MyA2My42MTM0OTc0LDIzLjI5MjA5MzMgNjMuMDU5ODQ0OCwyMi45NzUxOTI3IEw0MS4zNDY0Njg5LDEyLjIxNDYwOTkgQzQwLjg1MDc3OTksMTEuOTI4Nzk3NiA0MC4yMzUxNjYyLDExLjkyNzc5NDggMzkuNzQwNDc2NiwxMi4yMTU2MTI4IEwxNS44MDI0OTY1LDI2LjA4NDAyODMgQzE1LjMwNzgwNjksMjYuMzcxODQ2MyAxNSwyNi45MDYzNjU1IDE1LDI3LjQ3OTk5NTggTDE1LDU1LjIxNTgyMzkgQzE1LDU1Ljc4OTQ1NDIgMTUuMzA3ODA2OSw1Ni4zMjM5NzM0IDE1LjgxNzQ4NzEsNTYuNjE5ODE0MiBMMzcuNTczODM2LDY4Ljc4NTM5MDEgQzM3LjgyMTY4MDUsNjguOTI4Nzk3NiAzOC4xMDA1MDU2LDY5IDM4LjM3ODMzMTIsNjkgQzM4LjY1NTE1NzUsNjkgMzguOTMzOTgyNiw2OC45Mjg3OTc2IDM5LjE4MDgyNzcsNjguNzg1MzkwMSBDMzkuNjc2NTE2Nyw2OC40OTg1NzQ5IDM5Ljk4NDMyMzYsNjcuOTY0MDU1NyAzOS45ODQzMjM2LDY3LjM4OTQyMjYgTDM5Ljk4NDMyMzYsMzkuMjAxMzA5IEw2My4xMTc4MDg0LDI1Ljc5ODIxNiBDNjMuNjEzNDk3NCwyNS41MTE0MDA4IDYzLjkyMDMwNDksMjQuOTc2ODgxNyA2My45MjAzMDQ5LDI0LjQwMjI0ODUgTDYzLjkyMDMwNDksMjQuNDAyMjQ4NSBaIE02My45NjkyNzQyLDU1LjA0NzM0NTEgTDQ0Ljk4MTE4ODMsNjYuNjYxMzUzMyBMNDQuOTgxMTg4Myw1Ni4yNjE3OTY3IEw1NC44ODE5NzYsNDkuODcyNjM4IEw1NC45NDk5MzM0LDQ5LjQyNDM2NCBDNTQuOTY3OTIyMSw0OS4zMDcwMzA1IDU0Ljk3NDkxNzcsNDkuMzA3MDMwNSA1NC45NzQ5MTc3LDQ4Ljc2NjQ5NDIgTDU1LjAwNTg5ODMsMzYuMzYwMjM0NCBMNjQuMDAwMjU0NywzMS4xNDg0MjE4IEw2My45NjkyNzQyLDU1LjA0NzM0NTEgWiBNNjUuMTk2NTA0MiwyOS4wNzE1MTkxIEM2NC42OTk4MTU4LDI4Ljc4MTY5NTMgNjQuMDg0MjAyMSwyOC43ODI2OTgyIDYzLjU4ODUxMzEsMjkuMDcxNTE5MSBMNTQuMDEzNTIwOSwzNC42MTgyODM1IEM1My43MTM3MDksMzQuNzgxNzQ4MSA1My4wMDgxNTE3LDM1LjE2NTgzOTggNTMuMDA4MTUxNywzNS45NTgwOTE0IEw1Mi45NzYxNzE4LDQ4LjcxNzM1NDYgTDQzLjg1MDg5NzUsNTQuNjA2MDkxIEM0My4zMDYyMzkyLDU0LjkzMTAxNDUgNDIuOTgyNDQyNCw1NS40NDU0NzY2IDQyLjk4MjQ0MjQsNTUuOTg5MDIxNCBMNDIuOTgyNDQyNCw2Ny4zMDgxOTE3IEM0Mi45ODI0NDI0LDY3Ljg3NDgwMjEgNDMuMjg3MjUxMSw2OC4zOTEyNjk5IDQzLjc5NzkzMDcsNjguNjg3MTEwNyBDNDQuMDY0NzYzMyw2OC44NDA1NDY4IDQ0LjM2MTU3Nyw2OC45MTg3NjkxIDQ0LjY1NzM5MTQsNjguOTE4NzY5MSBDNDQuOTQ4MjA5LDY4LjkxODc2OTEgNDUuMjM5MDI2NSw2OC44NDQ1NTgyIDQ1LjUwMTg2MTYsNjguNjkyMTI1IEw2NS4xNjc1MjIzLDU2LjY2MzkzOTYgQzY1LjY2MjIxMTksNTYuMzc2MTIxNiA2NS45NjgwMjAxLDU1Ljg0MTYwMjQgNjUuOTY4MDIwMSw1NS4yNzA5ODA3IEw2NiwzMC40NjY0ODM3IEM2NiwyOS44OTI4NTM0IDY1LjY5MjE5MzEsMjkuMzU4MzM0MiA2NS4xOTY1MDQyLDI5LjA3MTUxOTEgTDY1LjE5NjUwNDIsMjkuMDcxNTE5MSBaIiBpZD0iQW1hem9uLUVsYXN0aWMtQ29udGFpbmVyLVJlZ2lzdHJ5X0ljb25fNjRfU3F1aWQiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4=" x="14" y="14" width="44" height="44"/>
+        <text x="68" y="30" class="card-title">Amazon Elastic Container Registry (ECR)</text>
+        <text x="68" y="46" font-size="11.5" font-weight="800" fill="#ea580c">phishing-xgboost:latest</text>
+
+        <!-- Badges -->
+        <rect x="68" y="54" width="110" height="15" rx="3" fill="#ffedd5"/>
+        <text x="123" y="65" text-anchor="middle" font-size="8" font-weight="700" fill="#9a3412">Image Size: ~380 MB</text>
+
+        <rect x="186" y="54" width="110" height="15" rx="3" fill="#f1f5f9"/>
+        <text x="241" y="65" text-anchor="middle" font-size="8" font-weight="700" fill="#334155">Linux/AMD64 OCI</text>
+
+        <line x1="14" y1="76" x2="428" y2="76" stroke="#f1f5f9" stroke-width="1"/>
+
+        <g transform="translate(14, 90)">
+          <text x="0" y="0" class="field-value">• <tspan font-weight="700">URI:</tspan> <tspan font-family="monospace">803146828520.dkr.ecr.ap-southeast-1.amazonaws.com/phishing-xgboost:latest</tspan></text>
+          <text x="0" y="16" class="field-value">• <tspan font-weight="700">Governance:</tspan> Private Registry | Vulnerability Scan on Push | KMS SSE-S3 Encryption.</text>
+          <text x="0" y="32" class="field-value">• <tspan font-weight="700">Lifecycle:</tspan> Automated multi-stage Docker build packaging Scikit-learn, XGBoost &amp; SciPy.</text>
+        </g>
+      </g>
+
+      <!-- Dedicated Left-Side Pull Image Arrow (Inside Compute Tier, completely isolated from SNS!) -->
+      <path d="M 120 305 L 120 292" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrow-orange)"/>
+      <g transform="translate(130, 298)">
+        <text x="0" y="0" font-size="8.5" font-weight="800" fill="#c2410c">Pull Image (Cold Start)</text>
+      </g>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- COLUMN 4: PERSISTENCE & NOTIFICATION TIER                                 -->
+    <!-- ========================================================================= -->
+    <g transform="translate(950, 25)">
+      <!-- Tier Container Box -->
+      <rect width="280" height="465" rx="10" fill="#f0f9ff" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <rect x="16" y="-11" width="220" height="22" rx="6" fill="#0284c7"/>
+      <text x="126" y="4" text-anchor="middle" class="tier-tag-txt">PERSISTENCE &amp; NOTIFICATION TIER</text>
+
+      <!-- 4.1. Amazon DynamoDB Card -->
+      <g transform="translate(12, 16)">
+        <rect width="256" height="205" rx="8" fill="#ffffff" stroke="#bae6fd" stroke-width="1.2" filter="url(#card-shadow)"/>
+        
+        <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BbWF6b24tRHluYW1vREJfNjQ8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPg0KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzJFMjdBRCIgb2Zmc2V0PSIwJSI+PC9zdG9wPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzUyN0ZGRiIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+DQogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPC9kZWZzPg0KICAgIDxnIGlkPSJJY29uLUFyY2hpdGVjdHVyZS82NC9BcmNoX0FtYXpvbi1EeW5hbW9EQl82NCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxnIGlkPSJJY29uLUFyY2hpdGVjdHVyZS1CRy82NC9EYXRhYmFzZSIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSI+DQogICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiB4PSIwIiB5PSIwIiB3aWR0aD0iODAiIGhlaWdodD0iODAiPjwvcmVjdD4NCiAgICAgICAgPC9nPg0KICAgICAgICA8cGF0aCBkPSJNNTIuMDg1OTUyNSw1NC44NTAyNTA2IEM0OC43NDc5NTY5LDU3LjU0OTAzMzggNDEuNzQ0OTY2MSw1OC45NzUyOTI3IDM1LjA0Mzk3NDksNTguOTc1MjkyNyBDMjguMzQxOTgzOCw1OC45NzUyOTI3IDIxLjMzNjk5Myw1Ny41NDgwNDIgMTcuOTk5OTk3NCw1NC44NDkyNTg4IEwxNy45OTk5OTc0LDYwLjI4NDUxNSBMMTguMDAwOTk3NCw2MC4yODQ1MTUgQzE4LjAwMDk5NzQsNjIuOTk1MjAwMiAyNC45OTk5OTc0LDY2LjAxNjMyOTkgMzUuMDQzOTc0OSw2Ni4wMTYzMjk5IEM0NS4wNzk5NjE3LDY2LjAxNjMyOTkgNTIuMDc0OTUyNSw2Mi45OTkxNjc2IDUyLjA4NTk1MjUsNjAuMjkwNDY2IEw1Mi4wODU5NTI1LDU0Ljg1MDI1MDYgWiBNNTIuMDg2OTUyNSw0NC41MjIyNzIgTDU0LjA4Njk0OTksNDQuNTExMzYxOCBMNTQuMDg2OTQ5OSw0NC41MjIyNzIgQzU0LjA4Njk0OTksNDUuNzMwMzI3MSA1My40ODE5NTA3LDQ2Ljg1ODA0MzYgNTIuMzAzOTUyMiw0Ny44OTA1NDM5IEM1My43MzE5NTAzLDQ5LjE0NzE5OSA1NC4wODY5NDk5LDUwLjM4MDA0OTkgNTQuMDg2OTQ5OSw1MS4yNTc4MjQgQzU0LjA4Njk0OTksNTEuMjYzNzc1IDU0LjA4NTk0OTksNTEuMjY4NzM0MiA1NC4wODU5NDk5LDUxLjI3NDY4NTIgTDU0LjA4NTk0OTksNjAuMjg0NTE1IEw1NC4wODY5NDk5LDYwLjI4NDUxNSBDNTQuMDg2OTQ5OSw2NS4yOTUyNjU4IDQ0LjI3NDk2MjgsNjggMzUuMDQzOTc0OSw2OCBDMjUuODM0OTg3MSw2OCAxNi4wNDk5OTk5LDY1LjMwNzE2NzggMTYuMDAzLDYwLjMxOTIyOTIgQzE2LjAwMyw2MC4zMTQyNyAxNiw2MC4zMDkzMTA5IDE2LDYwLjMwNDM1MTcgTDE2LDUxLjI1NDg0ODUgQzE2LDUxLjI1Mjg2NDggMTYuMDAyLDUxLjI0OTg4OTMgMTYuMDAyLDUxLjI0NjkxMzggQzE2LjAwNSw1MC4zNjkxMzk4IDE2LjM2MDk5OTUsNDkuMTQxMjQ3OSAxNy43ODY5OTc2LDQ3Ljg4NzU2ODQgQzE2LjM2OTk5OTUsNDYuNjM1ODcyNSAxNi4wMSw0NS40MTQ5MjM2IDE2LjAwMSw0NC41NDQwOTI0IEwxNi4wMDIsNDQuNTQ0MDkyNCBDMTYuMDAyLDQ0LjU0MDEyNSAxNiw0NC41MzcxNDk1IDE2LDQ0LjUzMzE4MjIgTDE2LDM1LjQ4MzY3OSBDMTYsMzUuNDgwNzAzNSAxNi4wMDIsMzUuNDc3NzI4IDE2LjAwMiwzNS40NzQ3NTI1IEMxNi4wMDUsMzQuNTk2OTc4NCAxNi4zNjE5OTk1LDMzLjM2OTA4NjYgMTcuNzg3OTk3NiwzMi4xMTczOTA4IEMxNi4zNjk5OTk1LDMwLjg2NDcwMzEgMTYuMDEsMjkuNjQyNzYyMyAxNi4wMDEsMjguNzcyOTIyOSBMMTYuMDAyLDI4Ljc3MjkyMjkgQzE2LjAwMiwyOC43Njg5NTU2IDE2LDI4Ljc2NDk4ODIgMTYsMjguNzYxMDIwOSBMMTYsMTkuNzEyNTA5NSBDMTYsMTkuNzA5NTM0IDE2LjAwMiwxOS43MDY1NTg1IDE2LjAwMiwxOS43MDM1ODMgQzE2LjAxOSwxNC42OTk3NzUxIDI1LjgxOTk4NzEsMTIgMzUuMDQzOTc0OSwxMiBDNDAuMjU0OTY4MSwxMiA0NS4yNjA5NjE1LDEyLjgyODE4MjMgNDguNzc3OTU2OSwxNC4yNzIyOTQxIEw0OC4wMTI5NTc5LDE2LjEwNTIwNTQgQzQ0LjcyOTk2MjIsMTQuNzU3MzAxNSA0MC4wMDI5Njg0LDEzLjk4MzY3MDEgMzUuMDQzOTc0OSwxMy45ODM2NzAxIEMyNC45OTk5ODgyLDEzLjk4MzY3MDEgMTguMDAwOTk3NCwxNy4wMDQ3OTk4IDE4LjAwMDk5NzQsMTkuNzE3NDY4NyBDMTguMDAwOTk3NCwyMi40MjkxNDU4IDI0Ljk5OTk4ODIsMjUuNDUwMjc1NCAzNS4wNDM5NzQ5LDI1LjQ1MDI3NTQgQzM1LjMxNDk3NDYsMjUuNDUzMjUwOSAzNS41Nzk5NzQyLDI1LjQ1MDI3NTQgMzUuODQ3OTczOSwyNS40NDAzNTcxIEwzNS45MzE5NzM4LDI3LjQyMjA0MzUgQzM1LjYzNTk3NDIsMjcuNDMzOTQ1NiAzNS4zMzk5NzQ1LDI3LjQzMzk0NTYgMzUuMDQzOTc0OSwyNy40MzM5NDU2IEMyOC4zNDE5ODM4LDI3LjQzMzk0NTYgMjEuMzM2OTkzLDI2LjAwNjY5NDkgMTgsMjMuMzA3OTExNyBMMTgsMjguNzQwMTkyMyBMMTguMDAwOTk3NCwyOC43NDAxOTIzIEwxOC4wMDA5OTc0LDI4Ljc2MzAwNDYgQzE4LjAxMDk5NzQsMjkuODAzNDM5NSAxOS4wNzc5OTU5LDMwLjcxMTk2MDUgMTkuOTcxOTk0OCwzMS4yODkyMDg1IEMyMi42NjE5OTEyLDMzLjAwNDA5MTMgMjcuNDgxOTg0OSwzNC4xNzU0NDg1IDMyLjg1Njk3NzgsMzQuNDE4NDQ4MSBMMzIuNzY1OTc3OSwzNi40MDAxMzQ2IEMyNy4zMjA5ODUxLDM2LjE1MzE2NzcgMjIuNTUyOTkxNCwzNS4wMjM0Njc1IDE5LjQ4Mzk5NTQsMzMuMjkxNzIzNSBDMTguNzI3OTk2NCwzMy44NTcwNjk1IDE4LjAwMDk5NzQsMzQuNjIxNzc0MyAxOC4wMDA5OTc0LDM1LjQ4ODYzODIgQzE4LjAwMDk5NzQsMzguMjAwMzE1MyAyNC45OTk5ODgyLDQxLjIyMTQ0NDkgMzUuMDQzOTc0OSw0MS4yMjE0NDQ5IEMzNi4wMjg5NzM2LDQxLjIyMTQ0NDkgMzcuMDA2OTcyMyw0MS4xODg3MTQzIDM3Ljk1MTk3MTEsNDEuMTIzMjUzMiBMMzguMDkwOTcwOSw0My4xMDE5NjQyIEMzNy4xMDA5NzIyLDQzLjE3MDQwMDggMzYuMDc0OTczNiw0My4yMDUxMTUgMzUuMDQzOTc0OSw0My4yMDUxMTUgQzI4LjM0MTk4MzgsNDMuMjA1MTE1IDIxLjMzNjk5Myw0MS43Nzc4NjQ0IDE4LDM5LjA3OTA4MTEgTDE4LDQ0LjUxMTM2MTggTDE4LjAwMDk5NzQsNDQuNTExMzYxOCBDMTguMDEwOTk3NCw0NS41NzQ2MDkgMTkuMDc3OTk1OSw0Ni40ODIxMzgxIDE5Ljk3MTk5NDgsNDcuMDYwMzc4IEMyMy4wNDc5OTA3LDQ5LjAyMzIxOTYgMjguODIzOTgzMSw1MC4yNDUxNjA0IDM1LjA0Mzk3NDksNTAuMjQ1MTYwNCBMMzUuNDgzOTc0NCw1MC4yNDUxNjA0IEwzNS40ODM5NzQ0LDUyLjIyODgzMDUgTDM1LjA0Mzk3NDksNTIuMjI4ODMwNSBDMjguNzI0OTgzMiw1Mi4yMjg4MzA1IDIyLjk4MTk5MDgsNTEuMDU1NDg5NiAxOS40Njk5OTU0LDQ5LjA3MjgxMTMgQzE4LjcxNzk5NjQsNDkuNjM3MTY1NSAxOC4wMDA5OTc0LDUwLjM5NzkwMyAxOC4wMDA5OTc0LDUxLjI1NzgyNCBDMTguMDAwOTk3NCw1My45Njk1MDExIDI0Ljk5OTk4ODIsNTYuOTkxNjIyNSAzNS4wNDM5NzQ5LDU2Ljk5MTYyMjUgQzQ1LjA3OTk2MTcsNTYuOTkxNjIyNSA1Mi4wNzQ5NTI1LDUzLjk3NDQ2MDIgNTIuMDg1OTUyNSw1MS4yNjQ3NjY4IEw1Mi4wODU5NTI1LDUxLjI1NDg0ODUgTDUyLjA4NTk1MjUsNTEuMjUzODU2NiBDNTIuMDgzOTUyNSw1MC4zOTE5NTIgNTEuMzYzOTUzNCw0OS42MzEyMTQ1IDUwLjYwOTk1NDQsNDkuMDY2ODYwMyBDNTAuMTIxOTU1MSw0OS4zNDM1ODIzIDQ5LjU5ODk1NTgsNDkuNjEwMzg1OSA0OS4wMDM5NTY2LDQ5Ljg1NTM2OTIgTDQ4LjIzNzk1NzYsNDguMDIyNDU4IEM0OC45NjM5NTY2LDQ3LjcyMzkxNTYgNDkuNTkzOTU1OCw0Ny40MDE1NjkyIDUwLjExMDk1NTEsNDcuMDYyMzYxNiBDNTEuMDEyOTUzOSw0Ni40NzQyMDM0IDUyLjA4Njk1MjUsNDUuNTU0NzcyMyA1Mi4wODY5NTI1LDQ0LjUyMjI3MiBMNTIuMDg2OTUyNSw0NC41MjIyNzIgWiBNNjAuNjUyOTQxMiwzMC4wMTY2ODQxIEw1NS4wNDg5NDg2LDMwLjAxNjY4NDEgQzU0LjcxNzk0OSwzMC4wMTY2ODQxIDU0LjQwNjk0OTQsMjkuODU0MDIzMSA1NC4yMjE5NDk3LDI5LjU4MjI2MDMgQzU0LjAzNDk0OTksMjkuMzEwNDk3NSA1My45OTY5NSwyOC45NjQzNDcxIDU0LjExODk0OTgsMjguNjU5ODUzNyBMNTcuNTI3OTQ1MywyMC4xMzgwMDY4IEw0NC42MTg5NzAyLDIwLjEzODAwNjggTDM4LjYxODk3MDIsMzIuMDQwMDI3NiBMNDUuMDAwOTYxOCwzMi4wNDAwMjc2IEM0NS4zMTk5NjE0LDMyLjA0MDAyNzYgNDUuNjE5OTYxLDMyLjE5MTc3ODQgNDUuODA4OTYwOCwzMi40NDY2OCBDNDUuOTk1OTYwNSwzMi43MDI1NzM1IDQ2LjA1MDk2MDQsMzMuMDMwODcwOSA0NS45NTM5NjA2LDMzLjMzMzM4MDYgTDQwLjI1Nzk2ODEsNTEuMDg5MjEyIEw2MC42NTI5NDEyLDMwLjAxNjY4NDEgWiBNNjMuNzIxOTM3MiwyOS43MTIxOTA3IEwzOC43MjI5NzAxLDU1LjUzOTU3NiBDMzguNTI3OTcwMyw1NS43Mzk5MjY3IDM4LjI2NTk3MDcsNTUuODQ0MDY5NCAzOC4wMDA5NzEsNTUuODQ0MDY5NCBDMzcuODI0OTcxMyw1NS44NDQwNjk0IDM3LjY0Nzk3MTUsNTUuNzk5NDM2OCAzNy40ODk5NzE3LDU1LjcwNTIxMjQgQzM3LjA4OTk3MjIsNTUuNDY5MTU1NyAzNi45MDY5NzI1LDU0Ljk5MjA4MyAzNy4wNDc5NzIzLDU0LjU1MTcwODMgTDQzLjYzMzk2MzYsMzQuMDIzNjk3OCBMMzcuMDAwOTcyNCwzNC4wMjM2OTc4IEMzNi42NTM5NzI4LDM0LjAyMzY5NzggMzYuMzMyOTczMiwzMy44NDYxNTkzIDM2LjE0OTk3MzUsMzMuNTUzNTY3OSBDMzUuOTY3OTczNywzMy4yNjA5NzY2IDM1Ljk1MDk3MzcsMzIuODk1OTgxMyAzNi4xMDY5NzM1LDMyLjU4ODUxMjQgTDQzLjEwNjk2NDMsMTguNzAyODIxNCBDNDMuMjc1OTY0MSwxOC4zNjY1ODkzIDQzLjYyMTk2MzYsMTguMTU0MzM2NiA0NC4wMDA5NjMxLDE4LjE1NDMzNjYgTDU5LjAwMDk0MzQsMTguMTU0MzM2NiBDNTkuMzMxOTQzLDE4LjE1NDMzNjYgNTkuNjQyOTQyNSwxOC4zMTc5ODk0IDU5LjgyNzk0MjMsMTguNTg4NzYwNCBDNjAuMDE0OTQyMSwxOC44NjE1MTUgNjAuMDUyOTQyLDE5LjIwNjY3MzYgNTkuOTMwOTQyMiwxOS41MTIxNTg4IEw1Ni41MjE5NDY3LDI4LjAzMzAxMzkgTDYyLjk5OTkzODEsMjguMDMzMDEzOSBDNjMuMzk5OTM3NiwyOC4wMzMwMTM5IDYzLjc2MjkzNzEsMjguMjcxMDU0NCA2My45MTk5MzY5LDI4LjYzNjA0OTcgQzY0LjA3NjkzNjcsMjkuMDAyMDM2OCA2My45OTg5MzY4LDI5LjQyNTU1MDQgNjMuNzIxOTM3MiwyOS43MTIxOTA3IEw2My43MjE5MzcyLDI5LjcxMjE5MDcgWiBNMTkuNDU0OTk1NSw2MC42NzQzMDYyIEMyMC44NzE5OTM2LDYxLjQ3MjczMzQgMjIuNjU1OTkxMiw2Mi4xNDQyMDU3IDI0Ljc1Njk4ODUsNjIuNjY3ODk0NyBMMjUuMjQ0OTg3OCw2MC43NDM3MzQ2IEMyMy4zNDU5OTAzLDYwLjI3MDYyOTMgMjEuNjg1OTkyNSw1OS42NDk3NDA1IDIwLjQ0Mjk5NDIsNTguOTQ5NTA1IEwxOS40NTQ5OTU1LDYwLjY3NDMwNjIgWiBNMjQuNzU2OTg4NSw0Ni43OTg1MzM1IEwyNS4yNDQ5ODc4LDQ0Ljg3NTM2NTMgQzIzLjM0NTk5MDMsNDQuNDAxMjY4MSAyMS42ODU5OTI1LDQzLjc4MDM3OTQgMjAuNDQyOTk0Miw0My4wODAxNDM4IEwxOS40NTQ5OTU1LDQ0LjgwNDk0NSBDMjAuODcxOTkzNiw0NS42MDMzNzIyIDIyLjY1NDk5MTIsNDYuMjc0ODQ0NiAyNC43NTY5ODg1LDQ2Ljc5ODUzMzUgTDI0Ljc1Njk4ODUsNDYuNzk4NTMzNSBaIE0xOS40NTQ5OTU1LDI4LjkzNTU4MzkgTDIwLjQ0Mjk5NDIsMjcuMjEwNzgyNyBDMjEuNjgzOTkyNSwyNy45MTEwMTgyIDIzLjM0NDk5MDMsMjguNTMwOTE1MSAyNS4yNDQ5ODc4LDI5LjAwNjAwNDEgTDI0Ljc1Njk4ODUsMzAuOTI5MTcyMyBDMjIuNjUyOTkxMiwzMC40MDQ0OTE2IDIwLjg2OTk5MzYsMjkuNzMzMDE5MyAxOS40NTQ5OTU1LDI4LjkzNTU4MzkgTDE5LjQ1NDk5NTUsMjguOTM1NTgzOSBaIiBpZD0iQW1hem9uLUR5bmFtb0RCX0ljb25fNjRfU3F1aWQiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4=" x="14" y="14" width="44" height="44"/>
+        <text x="66" y="30" class="card-title">Amazon DynamoDB</text>
+        <text x="66" y="46" font-size="11.5" font-weight="800" fill="#0284c7">PhishingDetectionLogs</text>
+        <text x="14" y="70" class="card-sub">NoSQL Real-Time Audit Log &amp; Forensics</text>
+
+        <line x1="14" y1="80" x2="242" y2="80" stroke="#f0f9ff" stroke-width="1.2"/>
+
+        <g transform="translate(14, 94)">
+          <text x="0" y="0" class="field-label">Key Schema:</text>
+          <rect x="0" y="6" width="228" height="20" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="6" y="19" font-size="8.5" font-weight="800" fill="#0f172a">PK: email_id (UUID) | SK: timestamp</text>
+
+          <text x="0" y="42" class="field-label">Capacity Mode:</text>
+          <text x="0" y="56" class="field-value">• PAY_PER_REQUEST (On-Demand)</text>
+          <text x="0" y="70" class="field-value">• Free Tier: 25 GB Storage, 25 WCU</text>
+
+          <text x="0" y="94" class="field-label">Performance SLA:</text>
+          <text x="0" y="108" class="field-value">• Sub-10ms Single-digit Write Latency</text>
+        </g>
+      </g>
+
+      <!-- 4.2. Amazon SNS Card -->
+      <g transform="translate(12, 235)">
+        <rect width="256" height="210" rx="8" fill="#ffffff" stroke="#fecaca" stroke-width="1.2" filter="url(#card-shadow)"/>
+        
+        <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtU2ltcGxlLU5vdGlmaWNhdGlvbi1TZXJ2aWNlXzY0PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz4NCiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNCMDA4NEQiIG9mZnNldD0iMCUiPjwvc3RvcD4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGRjRGOEIiIG9mZnNldD0iMTAwJSI+PC9zdG9wPg0KICAgICAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDwvZGVmcz4NCiAgICA8ZyBpZD0iSWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtU2ltcGxlLU5vdGlmaWNhdGlvbi1TZXJ2aWNlXzY0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9Ikljb24tQXJjaGl0ZWN0dXJlLUJHLzY0L0FwcGxpY2F0aW9uLUludGVncmF0aW9uIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIj4NCiAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PC9yZWN0Pg0KICAgICAgICA8L2c+DQogICAgICAgIDxwYXRoIGQ9Ik0xNywzOCBDMTguMTAzLDM4IDE5LDM4Ljg5NyAxOSw0MCBDMTksNDEuMTAzIDE4LjEwMyw0MiAxNyw0MiBDMTUuODk3LDQyIDE1LDQxLjEwMyAxNSw0MCBDMTUsMzguODk3IDE1Ljg5NywzOCAxNywzOCBMMTcsMzggWiBNNDEsNjQgQzI5LjMxNCw2NCAxOS4yODksNTUuNDY2IDE3LjE5NCw0My45OCBDMTguOTY1LDQzLjg5NCAyMC40MjcsNDIuNjU5IDIwLjg1Nyw0MSBMMjcsNDEgTDI3LDM5IEwyMC44NTcsMzkgQzIwLjQyNywzNy4zNDIgMTguOTY2LDM2LjEwNyAxNy4xOTUsMzYuMDIgQzE5LjI4NSwyNC43MSAyOS41MTEsMTYgNDEsMTYgQzQ1LjMxMywxNiA0OS44MzIsMTcuNjIyIDU0LjQyOSwyMC44MjEgTDU1LjU3MSwxOS4xNzkgQzUwLjYzMywxNS43NDMgNDUuNzMsMTQgNDEsMTQgQzI4LjI3LDE0IDE2Ljk0OSwyMy44NjUgMTUuMDYzLDM2LjUyMSBDMTMuODM5LDM3LjIwNyAxMywzOC41IDEzLDQwIEMxMyw0MS41IDEzLjgzOSw0Mi43OTMgMTUuMDYzLDQzLjQ3OCBDMTYuOTcsNTYuMzQxIDI4LjA1Niw2NiA0MSw2NiBDNDYuNDA3LDY2IDUxLjk0Miw2NC4xNTcgNTYuNTg1LDYwLjgxMSBMNTUuNDE1LDU5LjE4OSBDNTEuMTEsNjIuMjkyIDQ1Ljk5MSw2NCA0MSw2NCBMNDEsNjQgWiBNMzAuMTAxLDM2LjQ0MiBDMzEuOTU1LDM2Ljg5NSAzNC4yNzUsMzcgMzYsMzcgQzM3LjY0MiwzNyAzOS44MjMsMzYuOTA1IDQxLjYyOSwzNi41MDYgTDM3LjEwNSw0NS41NTMgQzM3LjAzNiw0NS42OTEgMzcsNDUuODQ1IDM3LDQ2IEwzNyw1MC40NTMgQzM2LjE5OSw1MC45NjQgMzQuODMzLDUxLjgxMiAzNCw1MS45ODYgTDM0LDQ2IEMzNCw0NS44NjggMzMuOTc0LDQ1LjczNyAzMy45MjMsNDUuNjE1IEwzMC4xMDEsMzYuNDQyIFogTTM2LDMzIEM0MC4wMjUsMzMgNDIuMTc0LDMzLjYwNCA0Mi44NDEsMzQgQzQyLjE3NCwzNC4zOTYgNDAuMDI1LDM1IDM2LDM1IEMzMS45NzUsMzUgMjkuODI2LDM0LjM5NiAyOS4xNTksMzQgQzI5LjgyNiwzMy42MDQgMzEuOTc1LDMzIDM2LDMzIEwzNiwzMyBaIE0zMyw1NCBMMzQsNTQgQzM0LjA0Myw1NCAzNC4wODYsNTMuOTk3IDM0LjEyOCw1My45OTIgQzM1LjM1Miw1My44MzMgMzYuOTA5LDUyLjg4NyAzOC4yNzIsNTIuMDEzIEwzOC41MzUsNTEuODQ1IEMzOC44MjQsNTEuNjYxIDM5LDUxLjM0MiAzOSw1MSBMMzksNDYuMjM2IEw0NC41NTksMzUuMTIgQzQ0LjgzMywzNC44MDEgNDUsMzQuNDM0IDQ1LDM0IEM0NSwzMS4zOSAzOS4zNjEsMzEgMzYsMzEgQzMyLjYzOSwzMSAyNywzMS4zOSAyNywzNCBDMjcsMzQuMzY2IDI3LjEyLDM0LjY4NCAyNy4zMiwzNC45NjcgTDMyLDQ2LjIgTDMyLDUzIEMzMiw1My41NTIgMzIuNDQ3LDU0IDMzLDU0IEwzMyw1NCBaIE02Miw1MyBDNjMuMTAzLDUzIDY0LDUzLjg5NyA2NCw1NSBDNjQsNTYuMTAzIDYzLjEwMyw1NyA2Miw1NyBDNjAuODk3LDU3IDYwLDU2LjEwMyA2MCw1NSBDNjAsNTMuODk3IDYwLjg5Nyw1MyA2Miw1MyBMNjIsNTMgWiBNNjIsMjMgQzYzLjEwMywyMyA2NCwyMy44OTcgNjQsMjUgQzY0LDI2LjEwMyA2My4xMDMsMjcgNjIsMjcgQzYwLjg5NywyNyA2MCwyNi4xMDMgNjAsMjUgQzYwLDIzLjg5NyA2MC44OTcsMjMgNjIsMjMgTDYyLDIzIFogTTY0LDM4IEM2NS4xMDMsMzggNjYsMzguODk3IDY2LDQwIEM2Niw0MS4xMDMgNjUuMTAzLDQyIDY0LDQyIEM2Mi44OTcsNDIgNjIsNDEuMTAzIDYyLDQwIEM2MiwzOC44OTcgNjIuODk3LDM4IDY0LDM4IEw2NCwzOCBaIE01NCw0MSBMNjAuMTQzLDQxIEM2MC41ODksNDIuNzIgNjIuMTQyLDQ0IDY0LDQ0IEM2Ni4yMDYsNDQgNjgsNDIuMjA2IDY4LDQwIEM2OCwzNy43OTQgNjYuMjA2LDM2IDY0LDM2IEM2Mi4xNDIsMzYgNjAuNTg5LDM3LjI4IDYwLjE0MywzOSBMNTQsMzkgTDU0LDI2IEw1OC4xNDMsMjYgQzU4LjU4OSwyNy43MiA2MC4xNDIsMjkgNjIsMjkgQzY0LjIwNiwyOSA2NiwyNy4yMDYgNjYsMjUgQzY2LDIyLjc5NCA2NC4yMDYsMjEgNjIsMjEgQzYwLjE0MiwyMSA1OC41ODksMjIuMjggNTguMTQzLDI0IEw1MywyNCBDNTIuNDQ3LDI0IDUyLDI0LjQ0OCA1MiwyNSBMNTIsMzkgTDQ1LDM5IEw0NSw0MSBMNTIsNDEgTDUyLDU1IEM1Miw1NS41NTIgNTIuNDQ3LDU2IDUzLDU2IEw1OC4xNDMsNTYgQzU4LjU4OSw1Ny43MiA2MC4xNDIsNTkgNjIsNTkgQzY0LjIwNiw1OSA2Niw1Ny4yMDYgNjYsNTUgQzY2LDUyLjc5NCA2NC4yMDYsNTEgNjIsNTEgQzYwLjE0Miw1MSA1OC41ODksNTIuMjggNTguMTQzLDU0IEw1NCw1NCBMNTQsNDEgWiIgaWQ9IkFXUy1TaW1wbGUtTm90aWZpY2F0aW9uLVNlcnZpY2VfSWNvbl82NF9TcXVpZCIgZmlsbD0iI0ZGRkZGRiI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg==" x="14" y="14" width="44" height="44"/>
+        <text x="66" y="30" class="card-title">Amazon SNS</text>
+        <text x="66" y="46" font-size="11.5" font-weight="800" fill="#dc2626">PhishingAlertTopic</text>
+        <text x="14" y="70" class="card-sub">Instant Security Push Notification</text>
+
+        <line x1="14" y1="80" x2="242" y2="80" stroke="#fef2f2" stroke-width="1.2"/>
+
+        <g transform="translate(14, 94)">
+          <text x="0" y="0" class="field-label">Alert Condition Rule:</text>
+          <rect x="0" y="6" width="228" height="20" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="6" y="20" font-size="8.5" font-weight="800" fill="#b91c1c">Confidence ≥ 90% (Urgent Threat)</text>
+
+          <text x="0" y="42" class="field-label">Protocol &amp; Dispatch:</text>
+          <text x="0" y="56" class="field-value">• Protocol: Email (JSON Payload)</text>
+          <text x="0" y="70" class="field-value">• Target: SOC Inbox &amp; Incident Channel</text>
+          <text x="0" y="84" class="field-value">• Broadcast Latency: &lt; 200 ms</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- COLUMN 5: RIGHT EXTERNAL RECIPIENT (ADMIN / SOC)                          -->
+    <!-- ========================================================================= -->
+    <g transform="translate(1260, 235)">
+      <rect width="155" height="210" rx="10" fill="#f8fafc" stroke="#fecaca" stroke-width="1.2" filter="url(#card-shadow)"/>
+      <circle cx="77" cy="46" r="26" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+      <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjQ4cHgiIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5JY29uLVJlc291cmNlL0dlbmVyYWwtUmVzb3VyY2UvUmVzX1VzZXJzXzQ4X0xpZ2h0PC90aXRsZT4NCiAgICA8ZyBpZD0iSWNvbi1SZXNvdXJjZS9HZW5lcmFsLVJlc291cmNlL1Jlc19Vc2Vyc180OCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgICAgIDxwYXRoIGQ9Ik0yOC42MzksOS4yODYgQzI4LjYzOSw2LjM3MSAzMS4wNTIsNCAzNC4wMTksNCBDMzYuOTg1LDQgMzkuMzk3LDYuMzcxIDM5LjM5Nyw5LjI4NiBDMzkuMzk3LDEyLjIwMSAzNi45ODUsMTQuNTcyIDM0LjAxOSwxNC41NzIgQzMxLjA1MiwxNC41NzIgMjguNjM5LDEyLjIwMSAyOC42MzksOS4yODYgTDI4LjYzOSw5LjI4NiBaIE00MC4xNjMsMTYuMzM0IEMzOS41MTYsMTUuOTMyIDM4LjgzMywxNS42IDM4LjEyOCwxNS4zMzMgQzQwLjA5OCwxNC4wMjMgNDEuMzk3LDExLjgwMiA0MS4zOTcsOS4yODYgQzQxLjM5Nyw1LjI2OSAzOC4wODcsMiAzNC4wMTksMiBDMjkuOTUsMiAyNi42MzksNS4yNjkgMjYuNjM5LDkuMjg2IEMyNi42MzksMTEuNzk2IDI3LjkzMiwxNC4wMTQgMjkuODk1LDE1LjMyNSBDMjguNjE0LDE1LjgwOCAyNy40MSwxNi41MTUgMjYuMzQ5LDE3LjQyNSBMMjcuNjUyLDE4Ljk0MyBDMjkuNDM0LDE3LjQxNCAzMS42ODksMTYuNTcyIDM0LDE2LjU3MiBDMzUuODAyLDE2LjU3MiAzNy41NjksMTcuMDc3IDM5LjEwOSwxOC4wMzMgQzQxLjg0OSwxOS43MzUgNDMuNjQ3LDIyLjcyNSA0My45NTMsMjYgTDM0LDI2IEwzNCwyOCBMNDUsMjggQzQ1LjU1MywyOCA0NiwyNy41NTMgNDYsMjcgQzQ2LDIyLjY1NyA0My43NjQsMTguNTcgNDAuMTYzLDE2LjMzNCBMNDAuMTYzLDE2LjMzNCBaIE04LjYzOSw5LjI4NiBDOC42MzksNi4zNzEgMTEuMDUyLDQgMTQuMDE5LDQgQzE2Ljk4NSw0IDE5LjM5Nyw2LjM3MSAxOS4zOTcsOS4yODYgQzE5LjM5NywxMi4yMDEgMTYuOTg1LDE0LjU3MiAxNC4wMTksMTQuNTcyIEMxMS4wNTIsMTQuNTcyIDguNjM5LDEyLjIwMSA4LjYzOSw5LjI4NiBMOC42MzksOS4yODYgWiBNMTQsMjYgTDQuMDQ2LDI2IEM0LjUzLDIwLjcxNyA4LjgxLDE2LjU3MiAxNCwxNi41NzIgQzE1LjgwMiwxNi41NzIgMTcuNTY5LDE3LjA3NyAxOS4xMDksMTguMDMzIEMxOS41NDEsMTguMzAyIDE5Ljk1OCwxOC42MDggMjAuMzQ5LDE4Ljk0MyBMMjEuNjUyLDE3LjQyNiBDMjEuMTg0LDE3LjAyNCAyMC42ODQsMTYuNjU3IDIwLjE2MywxNi4zMzQgQzE5LjUxNiwxNS45MzIgMTguODMzLDE1LjYgMTguMTI4LDE1LjMzMyBDMjAuMDk4LDE0LjAyMyAyMS4zOTcsMTEuODAyIDIxLjM5Nyw5LjI4NiBDMjEuMzk3LDUuMjY5IDE4LjA4NywyIDE0LjAxOSwyIEM5Ljk1LDIgNi42MzksNS4yNjkgNi42MzksOS4yODYgQzYuNjM5LDExLjgwMSA3LjkzNywxNC4wMjMgOS45MDcsMTUuMzMyIEM1LjMwMiwxNy4wNzEgMiwyMS42MzggMiwyNyBDMiwyNy41NTMgMi40NDgsMjggMywyOCBMMTQsMjggTDE0LDI2IFogTTE0LjA0Niw0NCBDMTQuNTMsMzguNzE3IDE4LjgxLDM0LjU3MiAyNCwzNC41NzIgQzI1LjgwMiwzNC41NzIgMjcuNTY5LDM1LjA3NyAyOS4xMDksMzYuMDMzIEMzMS44NDksMzcuNzM1IDMzLjY0Nyw0MC43MjUgMzMuOTUzLDQ0IEwxNC4wNDYsNDQgWiBNMTguNjM5LDI3LjI4NiBDMTguNjM5LDI0LjM3MSAyMS4wNTIsMjIgMjQuMDE5LDIyIEMyNi45ODUsMjIgMjkuMzk3LDI0LjM3MSAyOS4zOTcsMjcuMjg2IEMyOS4zOTcsMzAuMjAxIDI2Ljk4NSwzMi41NzIgMjQuMDE5LDMyLjU3MiBDMjEuMDUyLDMyLjU3MiAxOC42MzksMzAuMjAxIDE4LjYzOSwyNy4yODYgTDE4LjYzOSwyNy4yODYgWiBNMzAuMTYzLDM0LjMzNCBDMjkuNTE2LDMzLjkzMiAyOC44MzMsMzMuNiAyOC4xMjgsMzMuMzMzIEMzMC4wOTgsMzIuMDIzIDMxLjM5NywyOS44MDIgMzEuMzk3LDI3LjI4NiBDMzEuMzk3LDIzLjI2OSAyOC4wODcsMjAgMjQuMDE5LDIwIEMxOS45NSwyMCAxNi42MzksMjMuMjY5IDE2LjYzOSwyNy4yODYgQzE2LjYzOSwyOS44MDEgMTcuOTM3LDMyLjAyMyAxOS45MDcsMzMuMzMyIEMxNS4zMDIsMzUuMDcxIDEyLDM5LjYzOCAxMiw0NSBDMTIsNDUuNTUzIDEyLjQ0OCw0NiAxMyw0NiBMMzUsNDYgQzM1LjU1Myw0NiAzNiw0NS41NTMgMzYsNDUgQzM2LDQwLjY1NyAzMy43NjQsMzYuNTcgMzAuMTYzLDM0LjMzNCBMMzAuMTYzLDM0LjMzNCBaIiBpZD0iRmlsbC0xIiBmaWxsPSIjMjQyRjNFIj48L3BhdGg+DQogICAgPC9nPg0KPC9zdmc+" x="57" y="26" width="40" height="40"/>
+      <text x="77" y="96" text-anchor="middle" font-size="12" font-weight="800" fill="#0f172a">Admin / SOC</text>
+      <text x="77" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="#dc2626">Security Center</text>
+      <text x="77" y="128" text-anchor="middle" font-size="9" fill="#64748b">Incident Response Team</text>
+      <rect x="20" y="146" width="115" height="22" rx="4" fill="#fee2e2" stroke="#fca5a5"/>
+      <text x="77" y="160" text-anchor="middle" font-size="8.5" font-weight="800" fill="#991b1b">24/7 Threat Inbox</text>
+      <text x="77" y="188" text-anchor="middle" font-size="8" font-weight="700" fill="#15803d">● Alert Trigger Ready</text>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- OBSERVABILITY TIER (AMAZON CLOUDWATCH) - FULL WIDTH                       -->
+    <!-- ========================================================================= -->
+    <g transform="translate(210, 508)">
+      <rect width="1205" height="74" rx="8" fill="#fff1f2" stroke="#fda4af" stroke-width="1.2"/>
+      <rect x="16" y="-10" width="220" height="20" rx="4" fill="#e11d48"/>
+      <text x="126" y="4" text-anchor="middle" class="tier-tag-txt">OBSERVABILITY &amp; TELEMETRY TIER</text>
+
+      <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BbWF6b24tQ2xvdWRXYXRjaF82NDwvdGl0bGU+DQogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+DQogICAgPGRlZnM+DQogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMTAwJSIgeTI9IjAlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjQjAwODREIiBvZmZzZXQ9IjAlIj48L3N0b3A+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkY0RjhCIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4NCiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4NCiAgICA8L2RlZnM+DQogICAgPGcgaWQ9Ikljb24tQXJjaGl0ZWN0dXJlLzY0L0FyY2hfQW1hem9uLUNsb3VkV2F0Y2hfNjQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iSWNvbi1BcmNoaXRlY3R1cmUtQkcvNjQvTWFuYWdlbWVudC1Hb3Zlcm5hbmNlIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIj4NCiAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PC9yZWN0Pg0KICAgICAgICA8L2c+DQogICAgICAgIDxwYXRoIGQ9Ik01NS4wNTkyMzE1LDQ2Ljc3NzM3MDcgQzU1LjA1OTIzMTUsNDIuODY4MDI4MSA1MS44NTc1NTg4LDM5LjY4NzYzMDUgNDcuOTIyMDY0NiwzOS42ODc2MzA1IEM0My45ODY1NzA1LDM5LjY4NzYzMDUgNDAuNzg1OTAzLDQyLjg2ODAyODEgNDAuNzg1OTAzLDQ2Ljc3NzM3MDcgQzQwLjc4NTkwMyw1MC42ODY3MTMzIDQzLjk4NjU3MDUsNTMuODY3MTEwOCA0Ny45MjIwNjQ2LDUzLjg2NzExMDggQzUxLjg1NzU1ODgsNTMuODY3MTEwOCA1NS4wNTkyMzE1LDUwLjY4NjcxMzMgNTUuMDU5MjMxNSw0Ni43NzczNzA3IE01Ny4wNjk3MDExLDQ2Ljc3NzM3MDcgQzU3LjA2OTcwMTEsNTEuNzg4MTE5NCA1Mi45NjYzMzI3LDU1Ljg2NDIyMDcgNDcuOTIyMDY0Niw1NS44NjQyMjA3IEM0Mi44Nzg4MDE4LDU1Ljg2NDIyMDcgMzguNzc1NDMzNCw1MS43ODgxMTk0IDM4Ljc3NTQzMzQsNDYuNzc3MzcwNyBDMzguNzc1NDMzNCw0MS43NjY2MjE5IDQyLjg3ODgwMTgsMzcuNjkwNTIwNiA0Ny45MjIwNjQ2LDM3LjY5MDUyMDYgQzUyLjk2NjMzMjcsMzcuNjkwNTIwNiA1Ny4wNjk3MDExLDQxLjc2NjYyMTkgNTcuMDY5NzAxMSw0Ni43NzczNzA3IE02NS41MDk2NTIyLDYwLjQ3MzU1MDQgTDU4LjUwMTE1NTQsNTQuMjAyNjI1MyBDNTcuOTM1MjA4Miw1NC45OTQ0Nzk0IDU3LjI4MDgwMDQsNTUuNzE3NDMzMiA1Ni41NTQwMTU2LDU2LjM2MzQ5ODIgTDYzLjU1MjQ2MDEsNjIuNjMzNDI0OCBDNjQuMTQ5NTY5Niw2My4xNjg2NTAyIDY1LjA3ODQwNjUsNjMuMTE4NzIyNSA2NS42MTgyMTc2LDYyLjUyNTU4MDggQzY2LjE1NTAxMyw2MS45MzI0MzkyIDY2LjEwNjc2MTcsNjEuMDEwNzczIDY1LjUwOTY1MjIsNjAuNDczNTUwNCBNNDcuOTIyMDY0Niw1Ny42NjE2MTk3IEM1My45NjQ1MzA5LDU3LjY2MTYxOTcgNTguODgwMTI4OSw1Mi43Nzg2ODU5IDU4Ljg4MDEyODksNDYuNzc3MzcwNyBDNTguODgwMTI4OSw0MC43NzUwNTY5IDUzLjk2NDUzMDksMzUuODkzMTIxNyA0Ny45MjIwNjQ2LDM1Ljg5MzEyMTcgQzQxLjg4MDYwMzYsMzUuODkzMTIxNyAzNi45NjUwMDU2LDQwLjc3NTA1NjkgMzYuOTY1MDA1Niw0Ni43NzczNzA3IEMzNi45NjUwMDU2LDUyLjc3ODY4NTkgNDEuODgwNjAzNiw1Ny42NjE2MTk3IDQ3LjkyMjA2NDYsNTcuNjYxNjE5NyBNNjcuMTExOTk2NSw2My44NjI2NDU5IEM2Ni40MjY0MjY0LDY0LjYxNjU1NDkgNjUuNDc4NDksNjUgNjQuNTI4NTQzMSw2NSBDNjMuNzAwMjI5Niw2NSA2Mi44Njk5MDU3LDY0LjcwODQyMiA2Mi4yMDc0NTYsNjQuMTE3Mjc3NCBMNTQuOTMwNTYxNSw1Ny41OTg3MTA3IEM1Mi45MDcwMjM5LDU4Ljg5NjgzMjEgNTAuNTA1NTE4LDU5LjY1ODcyOTYgNDcuOTIyMDY0Niw1OS42NTg3Mjk2IEM0MC43NzE4Mjk3LDU5LjY1ODcyOTYgMzQuOTU0NTM2MSw1My44ODAwOTIxIDM0Ljk1NDUzNjEsNDYuNzc3MzcwNyBDMzQuOTU0NTM2MSwzOS42NzQ2NDkzIDQwLjc3MTgyOTcsMzMuODk2MDExOCA0Ny45MjIwNjQ2LDMzLjg5NjAxMTggQzU1LjA3MzMwNDgsMzMuODk2MDExOCA2MC44OTA1OTg1LDM5LjY3NDY0OTMgNjAuODkwNTk4NSw0Ni43NzczNzA3IEM2MC44OTA1OTg1LDQ4LjgxNTQyMTMgNjAuMzk5MDM4Nyw1MC43MzY2NDExIDU5LjU0NjU5OTYsNTIuNDUxMTU5OSBMNjYuODU1NjYxNiw1OC45OTA2OTYzIEM2OC4yNzUwNTMxLDYwLjI2NTg1MSA2OC4zODk2NDk5LDYyLjQ0OTY5MDcgNjcuMTExOTk2NSw2My44NjI2NDU5IE0yMS4yODAzMjc0LDI5LjM5MjUyOSBDMjEuMjgwMzI3NCwyOS45MTE3Nzc2IDIxLjMxMjQ5NDksMzAuNDI5MDI5IDIxLjM3MzgxNDMsMzAuOTI5MzA1MSBDMjEuNDA4OTk3NSwzMS4yMTM4OTMyIDIxLjMyMDUzNjgsMzEuNDk4NDgxNCAyMS4xMjk1NDIyLDMxLjcxMzE3MDcgQzIwLjk3Nzc1MTgsMzEuODgzOTIzNiAyMC43NzM2ODkxLDMxLjk5Njc2MDMgMjAuNTUwNTI3LDMyLjAzNDcwNTQgQzE4LjA3ODY1NDcsMzIuNjY4Nzg3OCAxNC4wMTA0Njk1LDM0LjU4ODAxMDQgMTQuMDEwNDY5NSw0MC4zNDU2NzgyIEMxNC4wMTA0Njk1LDQ0LjY5MzM4NjUgMTYuNDI0MDM4Miw0Ny4wOTI5MTQxIDE4LjQ0OTU4NjMsNDguMzQxMTA3NyBDMTkuMTQxMTg3OCw0OC43NzQ0ODA2IDE5Ljk1OTQ0ODksNDkuMDA1MTQ2OCAyMC44MjI5NDU2LDQ5LjAxNDEzMzggTDMyLjk0NTA3MTcsNDkuMDI1MTE3OSBMMzIuOTQzMDYxMyw1MS4wMjIyMjc4IEwyMC44MTE4ODgsNTEuMDExMjQzNyBDMTkuNTY2NDAyMSw1MC45OTgyNjI1IDE4LjM4NDI0Niw1MC42NjA3NTA5IDE3LjM4NDAzNzQsNTAuMDM0NjU2OSBDMTUuMzc2NTgzNiw0OC43OTc0NDc0IDEyLDQ1Ljg4OTY1NTMgMTIsNDAuMzQ1Njc4MiBDMTIsMzMuNjYyMzUgMTYuNTk5OTU0MywzMS4xOTE5MjUgMTkuMzAwMDE0OSwzMC4zMTkxODggQzE5LjI3OTkxMDIsMzAuMDExNjMzMSAxOS4yNjk4NTc5LDI5LjcwMjA4MSAxOS4yNjk4NTc5LDI5LjM5MjUyOSBDMTkuMjY5ODU3OSwyMy45MzI0MzA1IDIyLjk5ODI3MzcsMTguMjY5NjI1NCAyNy45NDIwMTgzLDE2LjIyMTU4OTIgQzMzLjcyNDEyODcsMTMuODE1MDcxNyAzOS44NTAwMjk0LDE1LjAwODM0NDkgNDQuMzI2MzM5OSwxOS40MTA5NzM3IEM0NS43MTM1NjM4LDIwLjc3NDk5OTggNDYuODU0NTA1MywyMi40MzE2MDI0IDQ3LjczMDA2NDgsMjQuMzQ3ODI5NCBDNDguOTA2MTg5NSwyMy4zODAyMjk2IDUwLjM1NTczOCwyMi44NDYwMDI3IDUxLjg4MzY5NDksMjIuODQ2MDAyNyBDNTQuODg2MzMxMiwyMi44NDYwMDI3IDU4LjI2NTkzMDUsMjUuMTA5NzI2OCA1OC44NjgwNjYxLDMwLjA2MDU2MjIgQzYxLjY3OTcwNzgsMzAuNzA0NjMwMiA2Ny42MjA2NDUzLDMyLjk1NTM3MzEgNjcuNjIwNjQ1Myw0MC40MjI1NjcgQzY3LjYyMDY0NTMsNDMuNDA0MjUyMSA2Ni42Nzk3NDU1LDQ1Ljg2NjY4ODYgNjQuODIzMDc2OSw0Ny43NDE5NzQ4IEw2My4zODk2MTIxLDQ2LjM0MTAwMjIgQzY0Ljg2MzI4NjMsNDQuODUzMTU1MyA2NS42MTAxNzU3LDQyLjg2MjAzNjcgNjUuNjEwMTc1Nyw0MC40MjI1NjcgQzY1LjYxMDE3NTcsMzMuODkxMDE5IDYwLjEwNTUxMDEsMzIuMjY2MzcwMSA1Ny43MzcxNzcsMzEuODcxOTQwOSBDNTcuNDY3Nzc0MSwzMS44MjcwMDYgNTcuMjI5NTMzNCwzMS42NzUyMjU2IDU3LjA3NTczMjUsMzEuNDUxNTQ5MyBDNTYuOTI1OTUyNSwzMS4yMzU4NjE0IDU2Ljg2ODY1NDEsMzAuOTcxMjQ0NCA1Ni45MTM4ODk3LDMwLjcxNDYxNTcgQzU2LjU4NTE3NzksMjYuNjYwNDgyNiA1NC4xNjA1NTE2LDI0Ljg0MzExMjYgNTEuODgzNjk0OSwyNC44NDMxMTI2IEM1MC40NDcyMTQ0LDI0Ljg0MzExMjYgNDkuMTAwMTk5OCwyNS41MzgxMDY5IDQ4LjE4NzQ0NjYsMjYuNzUwMzUyNiBDNDcuOTY1Mjg5NywyNy4wNDM5Mjc3IDQ3LjYwNDQxMDUsMjcuMTkzNzExIDQ3LjIzNDQ4NDEsMjcuMTM5Nzg5IEM0Ni44Njk1ODM4LDI3LjA4NTg2NyA0Ni41NjI5ODcyLDI2LjgzNjIyODMgNDYuNDM3MzMyOSwyNi40OTE3MjY4IEM0NS42MTQwNDU2LDI0LjIyNjAwNTcgNDQuNDI3ODY4NiwyMi4zMjA3NjI4IDQyLjkxMTk3NDUsMjAuODMwOTE4OCBDMzkuMDMyNzczNSwxNy4wMTU0NDA0IDMzLjcyODE0OTYsMTUuOTgwOTM3NCAyOC43MTcwNTQzLDE4LjA2NDkyMTYgQzI0LjU0NjMzNTIsMTkuNzkyNDIxNyAyMS4yODAzMjc0LDI0Ljc2NzIyMjQgMjEuMjgwMzI3NCwyOS4zOTI1MjkiIGlkPSJBbWF6b24tQ2xvdWRXYXRjaF9JY29uXzY0X1NxdWlkIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+DQogICAgPC9nPg0KPC9zdmc+" x="16" y="14" width="44" height="44"/>
+      
+      <g transform="translate(70, 20)">
+        <text x="0" y="10" class="card-title">Amazon CloudWatch</text>
+        <text x="140" y="10" font-size="10.5" font-weight="700" fill="#e11d48">Unified Logging, Metric Alarms &amp; Operational Dashboard</text>
+        <text x="0" y="28" class="field-value">• <tspan font-weight="700">Centralized Log Group:</tspan> <tspan font-family="monospace">/aws/lambda/phishing-detection-fn</tspan> (Captures full JSON payload, request IDs, memory &amp; cold start reports)</text>
+        <text x="0" y="42" class="field-value">• <tspan font-weight="700">Real-Time Telemetry:</tspan> Tracks Duration, Invocations, Errors, ConcurrentExecutions &amp; Memory Utilization across microVM instances.</text>
+      </g>
+
+      <g transform="translate(980, 14)">
+        <rect width="210" height="46" rx="6" fill="#ffffff" stroke="#fecdd3" stroke-width="1"/>
+        <circle cx="16" cy="18" r="4" fill="#22c55e"/>
+        <text x="26" y="22" font-size="9" font-weight="800" fill="#0f172a">CloudWatch Alarms Active</text>
+        <text x="12" y="36" font-size="8" fill="#64748b">• Error Spike Alarm (> 5% in 5 min)</text>
+      </g>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- BOTTOM IAM SECURITY BANNER                                                -->
+    <!-- ========================================================================= -->
+    <g transform="translate(25, 598)">
+      <rect width="1390" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.2"/>
+      <image href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjgwcHgiIGhlaWdodD0iODBweCIgdmlld0JveD0iMCAwIDgwIDgwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4NCiAgICA8dGl0bGU+SWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtSWRlbnRpdHktYW5kLUFjY2Vzcy1NYW5hZ2VtZW50XzY0PC90aXRsZT4NCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4NCiAgICA8ZGVmcz4NCiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNCRDA4MTYiIG9mZnNldD0iMCUiPjwvc3RvcD4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGRjUyNTIiIG9mZnNldD0iMTAwJSI+PC9zdG9wPg0KICAgICAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDwvZGVmcz4NCiAgICA8ZyBpZD0iSWNvbi1BcmNoaXRlY3R1cmUvNjQvQXJjaF9BV1MtSWRlbnRpdHktYW5kLUFjY2Vzcy1NYW5hZ2VtZW50XzY0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9Ikljb24tQXJjaGl0ZWN0dXJlLUJHLzY0L1NlY3VyaXR5LUlkZW50aXR5LUNvbXBsaWFuY2UiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPg0KICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIj48L3JlY3Q+DQogICAgICAgIDwvZz4NCiAgICAgICAgPHBhdGggZD0iTTE0LDU5IEw2Niw1OSBMNjYsMjEgTDE0LDIxIEwxNCw1OSBaIE02OCwyMCBMNjgsNjAgQzY4LDYwLjU1MiA2Ny41NTMsNjEgNjcsNjEgTDEzLDYxIEMxMi40NDcsNjEgMTIsNjAuNTUyIDEyLDYwIEwxMiwyMCBDMTIsMTkuNDQ4IDEyLjQ0NywxOSAxMywxOSBMNjcsMTkgQzY3LjU1MywxOSA2OCwxOS40NDggNjgsMjAgTDY4LDIwIFogTTQ0LDQ4IEw1OSw0OCBMNTksNDYgTDQ0LDQ2IEw0NCw0OCBaIE01Nyw0MiBMNjIsNDIgTDYyLDQwIEw1Nyw0MCBMNTcsNDIgWiBNNDQsNDIgTDUyLDQyIEw1Miw0MCBMNDQsNDAgTDQ0LDQyIFogTTI5LDQ2IEMyOSw0NS40NDkgMjguNTUyLDQ1IDI4LDQ1IEMyNy40NDgsNDUgMjcsNDUuNDQ5IDI3LDQ2IEMyNyw0Ni41NTEgMjcuNDQ4LDQ3IDI4LDQ3IEMyOC41NTIsNDcgMjksNDYuNTUxIDI5LDQ2IEwyOSw0NiBaIE0zMSw0NiBDMzEsNDcuMzAyIDMwLjE2MSw0OC40MDEgMjksNDguODE2IEwyOSw1MSBMMjcsNTEgTDI3LDQ4LjgxNSBDMjUuODM5LDQ4LjQwMSAyNSw0Ny4zMDIgMjUsNDYgQzI1LDQ0LjM0NiAyNi4zNDYsNDMgMjgsNDMgQzI5LjY1NCw0MyAzMSw0NC4zNDYgMzEsNDYgTDMxLDQ2IFogTTE5LDUzLjk5MyBMMzYuOTk0LDU0IEwzNi45OTYsNTAgTDMzLDUwIEwzMyw0OCBMMzYuOTk2LDQ4IEwzNi45OTgsNDUgTDMzLDQ1IEwzMyw0MyBMMzYuOTk5LDQzIEwzNyw0MC4wMDcgTDE5LjAwNiw0MCBMMTksNTMuOTkzIFogTTIyLDM4LjAwMSBMMzQsMzguMDA2IEwzNCwzMSBDMzQuMDAxLDI4LjY5NyAzMS4xOTcsMjYuNjc3IDI4LDI2LjY3NSBMMjcuOTk2LDI2LjY3NSBDMjQuODA0LDI2LjY3NSAyMi4wMDQsMjguNjk2IDIyLjAwMiwzMSBMMjIsMzguMDAxIFogTTE3LDU0Ljk5MiBMMTcuMDA2LDM5IEMxNy4wMDYsMzguNzM0IDE3LjExMSwzOC40OCAxNy4yOTksMzguMjkyIEMxNy40ODYsMzguMTA1IDE3Ljc0MSwzOCAxOC4wMDYsMzggTDIwLDM4LjAwMSBMMjAuMDAyLDMxIEMyMC4wMDQsMjcuNTEyIDIzLjU5LDI0LjY3NSAyNy45OTYsMjQuNjc1IEwyOCwyNC42NzUgQzMyLjQxMiwyNC42NzcgMzYuMDAxLDI3LjUxNSAzNiwzMSBMMzYsMzguMDA3IEwzOCwzOC4wMDggQzM4LjU1MywzOC4wMDggMzksMzguNDU2IDM5LDM5LjAwOCBMMzguOTk0LDU1IEMzOC45OTQsNTUuMjY2IDM4Ljg4OSw1NS41MiAzOC43MDEsNTUuNzA4IEMzOC41MTQsNTUuODk1IDM4LjI1OSw1NiAzNy45OTQsNTYgTDE4LDU1Ljk5MiBDMTcuNDQ3LDU1Ljk5MiAxNyw1NS41NDQgMTcsNTQuOTkyIEwxNyw1NC45OTIgWiBNNjAsMzYgTDYyLDM2IEw2MiwzNCBMNjAsMzQgTDYwLDM2IFogTTQ0LDM2IEw1NSwzNiBMNTUsMzQgTDQ0LDM0IEw0NCwzNiBaIiBpZD0iQVdTLUlkZW50aXR5LWFuZC1BY2Nlc3MtTWFuYWdlbWVudF9JY29uXzY0X1NxdWlkIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+DQogICAgPC9nPg0KPC9zdmc+" x="14" y="6" width="36" height="36"/>
+      
+      <g transform="translate(58, 18)">
+        <text x="0" y="0" font-size="11" font-weight="800" fill="#92400e">IAM Execution Role: PhishingDetectionLambdaRole</text>
+        <text x="310" y="0" font-size="9.5" font-weight="600" fill="#78350f">(ARN: arn:aws:iam::803146828520:role/PhishingDetectionLambdaRole)</text>
+        
+        <text x="0" y="17" font-size="9" fill="#451a03">
+          <tspan font-weight="700">Least-Privilege Policies:</tspan> 
+          AWSLambdaBasicExecutionRole (CloudWatch Write) + 
+          Inline DynamoDB Policy (<tspan font-family="monospace">dynamodb:PutItem</tspan> on <tspan font-family="monospace">PhishingDetectionLogs</tspan>) + 
+          Inline SNS Policy (<tspan font-family="monospace">sns:Publish</tspan> on <tspan font-family="monospace">PhishingAlertTopic</tspan>)
+        </text>
+      </g>
+
+      <rect x="1235" y="12" width="140" height="24" rx="12" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+      <text x="1305" y="27" text-anchor="middle" font-size="8.5" font-weight="800" fill="#15803d">Zero-Trust Security Model</text>
+    </g>
+
+    <!-- ========================================================================= -->
+    <!-- DATAFLOW ARROWS & FLOW PILLS (ZERO OVERLAPPING, PURE CHANNELS)            -->
+    <!-- ========================================================================= -->
+
+    <!-- 1. End User -> API Gateway -->
+    <path d="M 170 130 L 220 130" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <g transform="translate(195, 110)">
+      <rect x="-35" y="-9" width="70" height="18" rx="4" fill="#2563eb"/>
+      <text x="0" y="3.5" text-anchor="middle" class="flow-pill-txt">1. POST</text>
+    </g>
+
+    <!-- 2. Developer -> ECR (Docker Push - Routed completely under API Gateway in the channel, ZERO CROSSING!) -->
+    <path d="M 170 380 L 195 380 L 195 480 L 467 480 L 467 410" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#arrow-green)"/>
+    <g transform="translate(330, 480)">
+      <rect x="-45" y="-9" width="90" height="18" rx="4" fill="#16a34a"/>
+      <text x="0" y="3.5" text-anchor="middle" class="flow-pill-txt">Docker Push</text>
+    </g>
+
+    <!-- 3. API Gateway -> Lambda -->
+    <path d="M 420 130 L 467 130" stroke="#9333ea" stroke-width="2" marker-end="url(#arrow-purple)"/>
+    <g transform="translate(444, 110)">
+      <rect x="-35" y="-9" width="70" height="18" rx="4" fill="#9333ea"/>
+      <text x="0" y="3.5" text-anchor="middle" class="flow-pill-txt">2. Invoke</text>
+    </g>
+
+    <!-- 4. Lambda -> DynamoDB (PutItem) -->
+    <path d="M 925 110 L 960 110" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-cyan)"/>
+    <g transform="translate(942, 92)">
+      <rect x="-35" y="-9" width="70" height="18" rx="4" fill="#0284c7"/>
+      <text x="0" y="3.5" text-anchor="middle" class="flow-pill-txt">3. PutItem</text>
+    </g>
+
+    <!-- 5. Lambda -> SNS (Publish Alert - In channel between Compute and Persistence, ZERO CROSSING!) -->
+    <path d="M 925 240 L 938 240 L 938 340 L 960 340" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arrow-red)"/>
+    <g transform="translate(938, 290)">
+      <rect x="-35" y="-9" width="70" height="18" rx="4" fill="#dc2626"/>
+      <text x="0" y="3.5" text-anchor="middle" class="flow-pill-txt">4. Publish</text>
+    </g>
+
+    <!-- 6. SNS -> Admin / SOC (Straight across the right channel, ZERO CROSSING!) -->
+    <path d="M 1230 340 L 1258 340" stroke="#dc2626" stroke-width="2" marker-end="url(#arrow-red)"/>
+    <g transform="translate(1244, 320)">
+      <text x="0" y="0" text-anchor="middle" font-size="8.5" font-weight="800" fill="#dc2626">Email Alert</text>
+    </g>
+
+    <!-- 7. Telemetry Downward Arrow to CloudWatch -->
+    <path d="M 695 490 L 695 506" stroke="#e11d48" stroke-width="1.8" stroke-dasharray="3,3" marker-end="url(#arrow-red)"/>
+    <g transform="translate(710, 502)">
+      <text x="0" y="0" font-size="8" font-weight="700" fill="#e11d48">Telemetry &amp; Log Streams</text>
+    </g>
+  </g>
+</svg>
